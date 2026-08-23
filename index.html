@@ -1,0 +1,1457 @@
+<!doctype html>
+<html lang="zh-CN"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="豆雨桐，Senior Technical Artist，Tools &amp; Pipeline / Rendering。">
+  <title>豆雨桐｜Senior Technical Artist</title>
+  <style>
+    :root {
+      --blue-950: #0b2744;
+      --blue-850: #123a63;
+      --blue-700: #2563a6;
+      --blue-600: #3377ba;
+      --blue-100: #eaf3fb;
+      --blue-050: #f5f9fd;
+      --ink: #1d2935;
+      --muted: #5d6b79;
+      --line: #d8e2ec;
+      --white: #ffffff;
+      --shadow: 0 16px 45px rgba(21, 54, 85, 0.07);
+      --content-width: 1180px;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background-color: var(--white);
+      background-image:
+        linear-gradient(
+          to bottom,
+          rgba(255, 255, 255, 0.76) 0,
+          rgba(255, 255, 255, 0.84) 300px,
+          rgba(255, 255, 255, 0.97) 600px,
+          var(--white) 760px
+        ),
+        url("https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp");
+      background-position: top center, top center;
+      background-repeat: no-repeat, no-repeat;
+      background-size: 100% 100%, max(1180px, 100vw) auto;
+      font-family: Inter, "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.8;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a {
+      color: var(--blue-700);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }
+
+    a:hover {
+      color: var(--blue-950);
+    }
+
+    a:focus-visible {
+      outline: 3px solid rgba(51, 119, 186, 0.3);
+      outline-offset: 4px;
+      border-radius: 4px;
+    }
+
+    .skip-link {
+      position: fixed;
+      z-index: 100;
+      top: 12px;
+      left: 12px;
+      padding: 8px 12px;
+      color: var(--white);
+      background: var(--blue-950);
+      transform: translateY(-160%);
+      transition: transform 0.15s ease;
+    }
+
+    .skip-link:focus {
+      transform: translateY(0);
+    }
+
+    .site-header {
+      position: sticky;
+      z-index: 20;
+      top: 0;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(10px);
+    }
+
+    .header-inner {
+      width: min(calc(100% - 48px), var(--content-width));
+      min-height: 76px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 32px;
+    }
+
+    .brand {
+      color: var(--blue-950);
+      font-size: 18px;
+      font-weight: 760;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .language-toggle {
+      min-width: 102px;
+      min-height: 38px;
+      padding: 4px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 3px;
+      border: 1px solid #b8cee2;
+      border-radius: 5px;
+      color: var(--muted);
+      background: var(--white);
+      font: inherit;
+      font-size: 13px;
+      font-weight: 750;
+      line-height: 1;
+      cursor: pointer;
+      transition: border-color 0.15s ease, box-shadow 0.15s ease;
+    }
+
+    .language-toggle:hover {
+      border-color: var(--blue-700);
+    }
+
+    .language-toggle:focus-visible {
+      outline: 3px solid rgba(51, 119, 186, 0.3);
+      outline-offset: 4px;
+    }
+
+    .language-option {
+      min-width: 40px;
+      padding: 7px 8px;
+      border-radius: 3px;
+      text-align: center;
+      transition: color 0.15s ease, background 0.15s ease;
+    }
+
+    .language-option.is-active {
+      color: var(--white);
+      background: var(--blue-700);
+    }
+
+    .language-divider {
+      color: #a4b0bc;
+      font-weight: 500;
+    }
+
+    .edit-toggle {
+      min-width: 72px;
+      min-height: 38px;
+      padding: 0 15px;
+      border: 1px solid var(--blue-700);
+      border-radius: 5px;
+      color: var(--blue-700);
+      background: var(--white);
+      font: inherit;
+      font-size: 13px;
+      font-weight: 750;
+      cursor: pointer;
+      transition: color 0.15s ease, background 0.15s ease, transform 0.15s ease;
+    }
+
+    .edit-toggle:hover {
+      color: var(--white);
+      background: var(--blue-700);
+      transform: translateY(-1px);
+    }
+
+    .edit-toggle:focus-visible {
+      outline: 3px solid rgba(51, 119, 186, 0.3);
+      outline-offset: 4px;
+    }
+
+    .edit-toggle.is-saving {
+      color: var(--white);
+      background: var(--blue-700);
+    }
+
+    .edit-toggle:disabled {
+      opacity: 0.55;
+      cursor: wait;
+      transform: none;
+    }
+
+    a.edit-toggle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+    }
+
+    a.edit-toggle[hidden] {
+      display: none;
+    }
+
+    .language-toggle:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+
+    body.is-editing [contenteditable="true"] {
+      outline: 1px dashed rgba(37, 99, 166, 0.62);
+      outline-offset: 4px;
+      border-radius: 2px;
+      cursor: text;
+    }
+
+    body.is-editing [contenteditable="true"]:hover {
+      background: rgba(234, 243, 251, 0.58);
+    }
+
+    body.is-editing [contenteditable="true"]:focus {
+      outline: 2px solid var(--blue-700);
+      background: var(--blue-050);
+    }
+
+    body.is-editing .project-link {
+      opacity: 0.38;
+      pointer-events: none;
+    }
+
+    .edit-dialog {
+      width: min(calc(100% - 32px), 440px);
+      padding: 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--ink);
+      background: var(--white);
+      box-shadow: 0 24px 80px rgba(11, 39, 68, 0.24);
+    }
+
+    .edit-dialog::backdrop {
+      background: rgba(11, 39, 68, 0.34);
+      backdrop-filter: blur(2px);
+    }
+
+    .edit-dialog-body {
+      padding: 28px;
+    }
+
+    .edit-dialog h2 {
+      margin: 0;
+      color: var(--blue-950);
+      font-size: 22px;
+      line-height: 1.35;
+    }
+
+    .edit-dialog p {
+      margin: 10px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .edit-dialog-actions {
+      margin-top: 24px;
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+    }
+
+    .dialog-button {
+      min-width: 88px;
+      min-height: 40px;
+      padding: 8px 16px;
+      border-radius: 5px;
+      font: inherit;
+      font-size: 13px;
+      font-weight: 750;
+      cursor: pointer;
+    }
+
+    .dialog-button-restore {
+      border: 1px solid #b8c5d1;
+      color: var(--muted);
+      background: var(--white);
+    }
+
+    .dialog-button-restore:hover {
+      border-color: var(--blue-700);
+      color: var(--blue-700);
+    }
+
+    .dialog-button-save {
+      border: 1px solid var(--blue-700);
+      color: var(--white);
+      background: var(--blue-700);
+    }
+
+    .dialog-button-save:hover {
+      background: var(--blue-950);
+    }
+
+    .edit-status {
+      position: fixed;
+      z-index: 80;
+      right: 24px;
+      bottom: 24px;
+      max-width: min(360px, calc(100% - 48px));
+      padding: 10px 14px;
+      border-radius: 5px;
+      color: var(--white);
+      background: var(--blue-950);
+      box-shadow: var(--shadow);
+      font-size: 13px;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(8px);
+      transition: opacity 0.18s ease, transform 0.18s ease;
+    }
+
+    .edit-status.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .page {
+      width: min(calc(100% - 48px), var(--content-width));
+      margin: 0 auto;
+      padding: 76px 0 96px;
+      display: grid;
+      grid-template-columns: 280px minmax(0, 1fr);
+      gap: 72px;
+      align-items: start;
+    }
+
+    .sidebar {
+      position: sticky;
+      top: 120px;
+      min-width: 0;
+    }
+
+    .identity {
+      padding-bottom: 26px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .avatar {
+      width: 140px;
+      height: auto;
+      margin-bottom: 24px;
+      display: block;
+    }
+
+    .identity h1 {
+      margin: 0;
+      color: var(--blue-950);
+      font-size: 27px;
+      line-height: 1.25;
+    }
+
+    .role {
+      margin: 8px 0 0;
+      color: var(--blue-700);
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1.55;
+    }
+
+    .career-status {
+      margin: 7px 0 0;
+      color: var(--blue-850);
+      font-size: 13px;
+      font-weight: 750;
+      letter-spacing: 0.025em;
+    }
+
+    .contact-list {
+      margin: 22px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .contact-list li {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 14px;
+      overflow-wrap: anywhere;
+    }
+
+    .contact-list span {
+      display: inline-block;
+      min-width: 48px;
+      color: var(--ink);
+      font-weight: 650;
+    }
+
+    .side-section {
+      padding: 26px 0 0;
+      scroll-margin-top: 112px;
+    }
+
+    .side-section h2 {
+      margin: 0 0 16px;
+      color: var(--blue-950);
+      font-size: 15px;
+      letter-spacing: 0.08em;
+    }
+
+    .education-item + .education-item {
+      margin-top: 20px;
+    }
+
+    .education-item h3 {
+      margin: 0;
+      color: var(--ink);
+      font-size: 14px;
+      line-height: 1.55;
+    }
+
+    .education-item p {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .education-item time {
+      display: inline-block;
+      margin-top: 5px;
+      color: var(--blue-700);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+    }
+
+    .skill-group + .skill-group {
+      margin-top: 15px;
+    }
+
+    .skill-group h3 {
+      margin: 0 0 7px;
+      color: var(--ink);
+      font-size: 13px;
+    }
+
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .tag-list li {
+      padding: 4px 9px;
+      border: 1px solid #d2e2f1;
+      border-radius: 4px;
+      color: var(--blue-850);
+      background: var(--blue-050);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .content {
+      min-width: 0;
+    }
+
+    .section {
+      padding: 0 0 62px;
+      scroll-margin-top: 108px;
+    }
+
+    .section + .section {
+      padding-top: 10px;
+    }
+
+    .section-heading {
+      margin: 0 0 24px;
+      padding-bottom: 13px;
+      border-bottom: 1px solid var(--line);
+      color: var(--blue-950);
+      font-size: 30px;
+      line-height: 1.3;
+      letter-spacing: -0.02em;
+    }
+
+    .experience {
+      padding: 4px 0 0;
+    }
+
+    .experience-header,
+    .project-header {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 20px;
+      align-items: baseline;
+    }
+
+    .experience-header[hidden] {
+      display: none;
+    }
+
+    .experience h3,
+    .project h3 {
+      margin: 0;
+      color: var(--blue-950);
+      font-size: 19px;
+      line-height: 1.5;
+    }
+
+    .period {
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .bullets {
+      margin: 20px 0 0;
+      padding-left: 1.2em;
+    }
+
+    .bullets li {
+      padding-left: 0.35em;
+      color: #354453;
+    }
+
+    .bullets li + li {
+      margin-top: 11px;
+    }
+
+    .bullets li::marker {
+      color: var(--blue-600);
+    }
+
+    .bullets strong {
+      color: var(--blue-950);
+    }
+
+    .experience-summary {
+      max-width: 92ch;
+      margin: 2px 0 0;
+      padding: 2px 0 2px 18px;
+      border-left: 2px solid var(--blue-600);
+      list-style: none;
+    }
+
+    .experience-header:not([hidden]) + .experience-summary {
+      margin-top: 20px;
+    }
+
+    .experience-summary li {
+      padding-left: 0;
+      color: #354453;
+      font-size: 15px;
+      line-height: 1.8;
+    }
+
+    .experience-summary li + li {
+      margin-top: 10px;
+    }
+
+    .editable-list-content {
+      min-width: 0;
+    }
+
+    body.is-editing .bullets li:not([hidden]) {
+      position: relative;
+      padding-right: 76px;
+    }
+
+    .list-item-delete {
+      position: absolute;
+      top: -2px;
+      right: 0;
+      min-height: 28px;
+      padding: 3px 9px;
+      border: 1px solid #c7d4df;
+      border-radius: 4px;
+      color: var(--muted);
+      background: var(--white);
+      font: inherit;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    .list-item-delete:hover,
+    .list-item-delete:focus-visible {
+      border-color: #b45353;
+      color: #9f3f3f;
+      outline: none;
+    }
+
+    .list-edit-toolbar {
+      margin: 14px 0 0 1.2em;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .list-edit-button {
+      min-height: 32px;
+      padding: 5px 11px;
+      border: 1px solid var(--blue-700);
+      border-radius: 4px;
+      color: var(--blue-700);
+      background: var(--white);
+      font: inherit;
+      font-size: 12px;
+      font-weight: 750;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    .list-edit-button:hover,
+    .list-edit-button:focus-visible {
+      color: var(--white);
+      background: var(--blue-700);
+      outline: none;
+    }
+
+    code {
+      padding: 0.08em 0.32em;
+      border-radius: 3px;
+      color: var(--blue-850);
+      background: var(--blue-100);
+      font-family: Consolas, "SFMono-Regular", monospace;
+      font-size: 0.92em;
+    }
+
+    .project-list {
+      border-top: 1px solid var(--line);
+    }
+
+    .project {
+      padding: 30px 0 31px;
+      border-bottom: 1px solid var(--line);
+      break-inside: avoid;
+    }
+
+    .project-editor-toolbar {
+      margin: 0 0 16px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .project-editor-hint {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .project-edit-controls {
+      margin-bottom: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 7px;
+    }
+
+    .project-edit-button {
+      min-height: 30px;
+      padding: 4px 10px;
+      border: 1px solid #b8cee2;
+      border-radius: 4px;
+      color: var(--blue-700);
+      background: var(--white);
+      font: inherit;
+      font-size: 12px;
+      font-weight: 750;
+      line-height: 1;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    .project-edit-button:hover,
+    .project-edit-button:focus-visible {
+      border-color: var(--blue-700);
+      color: var(--white);
+      background: var(--blue-700);
+      outline: none;
+    }
+
+    .project-edit-button:disabled {
+      opacity: 0.38;
+      cursor: not-allowed;
+    }
+
+    .project-edit-button:disabled:hover {
+      border-color: #b8cee2;
+      color: var(--blue-700);
+      background: var(--white);
+    }
+
+    .project-drag-handle {
+      display: inline-flex;
+      align-items: center;
+      cursor: grab;
+      touch-action: none;
+    }
+
+    .project-drag-handle:active {
+      cursor: grabbing;
+    }
+
+    .project.is-dragging {
+      opacity: 0.42;
+    }
+
+    .project-list.is-reordering {
+      border-color: var(--blue-600);
+    }
+
+    .project-edit-button.is-danger:hover,
+    .project-edit-button.is-danger:focus-visible {
+      border-color: #b45353;
+      color: var(--white);
+      background: #9f3f3f;
+    }
+
+    .custom-project-empty {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .project-label {
+      display: inline-block;
+      margin-bottom: 9px;
+      color: var(--blue-700);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .project-title-line {
+      min-width: 0;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 18px;
+    }
+
+    .project-actions {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+
+    .project-link {
+      min-height: 40px;
+      padding: 0 13px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 7px;
+      border: 1px solid var(--blue-700);
+      border-radius: 5px;
+      color: var(--white);
+      background: var(--blue-700);
+      font-size: 13px;
+      font-weight: 750;
+      line-height: 1.2;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: color 0.15s ease, background 0.15s ease, transform 0.15s ease;
+    }
+
+    .project-link:hover {
+      color: var(--white);
+      background: var(--blue-950);
+      transform: translateY(-1px);
+    }
+
+    .project-link-icon {
+      width: 17px;
+      height: 17px;
+      flex: 0 0 auto;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.8;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    .other-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    .other-card {
+      padding: 22px 24px;
+      border: 1px solid var(--line);
+      background: var(--blue-050);
+    }
+
+    .other-card h3 {
+      margin: 0 0 8px;
+      color: var(--blue-950);
+      font-size: 15px;
+    }
+
+    .other-card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .games-card {
+      position: relative;
+      padding-bottom: 82px;
+    }
+
+    .games-background-note {
+      position: absolute;
+      z-index: 4;
+      right: 24px;
+      bottom: 18px;
+      left: 24px;
+      padding: 9px 12px;
+      border: 1px solid #b8cee2;
+      border-radius: 6px;
+      color: var(--blue-850) !important;
+      background: rgba(255, 255, 255, 0.98);
+      box-shadow: 0 10px 28px rgba(21, 54, 85, 0.13);
+      font-size: 12.5px !important;
+      line-height: 1.55;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(6px);
+      pointer-events: none;
+      transition: opacity 160ms ease, visibility 160ms ease, transform 160ms ease;
+    }
+
+    @media (hover: hover) and (pointer: fine) {
+      .games-card:hover .games-background-note {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+    }
+
+    .other-card.has-detail-link {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .other-card.has-detail-link p {
+      flex: 1;
+    }
+
+    .other-link {
+      display: inline-flex;
+      align-items: center;
+      align-self: flex-start;
+      justify-content: center;
+      gap: 8px;
+      min-height: 44px;
+      margin-top: 16px;
+      padding: 0 14px;
+      border: 1px solid var(--blue-700);
+      border-radius: 6px;
+      color: var(--blue-700);
+      background: var(--white);
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 1;
+      text-decoration: none;
+      transition: color 160ms ease, background 160ms ease, border-color 160ms ease;
+    }
+
+    .other-link:hover,
+    .other-link:focus-visible {
+      border-color: var(--blue-950);
+      color: var(--white);
+      background: var(--blue-950);
+    }
+
+    .other-link-arrow {
+      font-size: 17px;
+      line-height: 1;
+    }
+
+    body.is-editing .other-link {
+      pointer-events: none;
+      opacity: 0.58;
+    }
+
+    .review-note {
+      margin-top: 32px;
+      padding: 16px 19px;
+      border-left: 3px solid #9ebbd6;
+      color: var(--muted);
+      background: #f8fafc;
+      font-size: 12px;
+    }
+
+    .footer {
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      background: var(--white);
+    }
+
+    .footer-inner {
+      width: min(calc(100% - 48px), var(--content-width));
+      margin: 0 auto;
+      padding: 24px 0 30px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      font-size: 12px;
+    }
+
+    @media (max-width: 900px) {
+      .header-inner {
+        min-height: 68px;
+        gap: 18px;
+      }
+
+      .page {
+        padding-top: 46px;
+        grid-template-columns: 1fr;
+        gap: 46px;
+      }
+
+      .sidebar {
+        position: static;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+        gap: 30px 42px;
+      }
+
+      .identity {
+        grid-column: 1 / -1;
+      }
+
+      .avatar {
+        width: 112px;
+        height: auto;
+      }
+    }
+
+    @media (max-width: 620px) {
+      body {
+        font-size: 15px;
+      }
+
+      .header-inner,
+      .page,
+      .footer-inner {
+        width: min(calc(100% - 32px), var(--content-width));
+      }
+
+      .page {
+        padding-bottom: 58px;
+      }
+
+      .sidebar {
+        grid-template-columns: 1fr;
+      }
+
+      .identity {
+        grid-column: auto;
+      }
+
+      .section {
+        padding-bottom: 48px;
+      }
+
+      .section-heading {
+        font-size: 25px;
+      }
+
+      .experience-header,
+      .project-header {
+        grid-template-columns: 1fr;
+        gap: 13px;
+      }
+
+      .experience-summary {
+        max-width: none;
+        padding-left: 14px;
+      }
+
+      .project-title-line {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 4px;
+      }
+
+      .project-actions {
+        justify-content: flex-start;
+      }
+
+      .other-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-inner {
+        flex-direction: column;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        transition: none !important;
+      }
+    }
+
+    @media print {
+      @page {
+        size: A4;
+        margin: 13mm 14mm;
+      }
+
+      body {
+        background: #ffffff !important;
+        color: #111827;
+        font-size: 9.5pt;
+        line-height: 1.5;
+      }
+
+      .site-header,
+      .review-note,
+      .footer,
+      .edit-dialog,
+      .edit-status {
+        display: none;
+      }
+
+      [contenteditable="true"] {
+        outline: none !important;
+        background: transparent !important;
+      }
+
+      .page {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        grid-template-columns: 52mm minmax(0, 1fr);
+        gap: 9mm;
+      }
+
+      .sidebar {
+        position: static;
+      }
+
+      .avatar {
+        width: 21mm;
+        height: auto;
+        margin-bottom: 4mm;
+      }
+
+      .identity h1 {
+        font-size: 18pt;
+      }
+
+      .role,
+      .contact-list li,
+      .education-item h3,
+      .education-item p,
+      .skill-group h3,
+      .tag-list li {
+        font-size: 8pt;
+      }
+
+      .section {
+        padding-bottom: 8mm;
+      }
+
+      .section-heading {
+        margin-bottom: 4mm;
+        padding-bottom: 2mm;
+        font-size: 16pt;
+      }
+
+      .other-card {
+        padding: 4mm;
+        box-shadow: none;
+      }
+
+      .project {
+        padding: 5mm 0;
+      }
+
+      .project-link,
+      .other-link,
+      .games-background-note {
+        display: none;
+      }
+
+      .games-card {
+        padding-bottom: 4mm;
+      }
+
+      .experience-summary {
+        padding-left: 3mm;
+        border-left-width: 0.4mm;
+        break-inside: avoid;
+      }
+
+      .experience-summary li {
+        font-size: 9pt;
+        line-height: 1.55;
+      }
+
+      .list-edit-toolbar,
+      .list-item-delete,
+      .project-editor-toolbar,
+      .project-edit-controls,
+      .custom-project-empty {
+        display: none !important;
+      }
+
+      .experience,
+      .project,
+      .other-card {
+        break-inside: avoid;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+  </style>
+<style>a.language-toggle{text-decoration:none}.header-actions{flex-wrap:wrap}</style></head>
+<body class="">
+  <a class="skip-link" href="#main-content">跳到主要内容</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top">豆雨桐</a>
+      <div class="header-actions">
+        <a class="language-toggle" href="index-en.html" title="切换为英文" aria-label="切换为英文">
+          <span class="language-option language-option-zh is-active">中文</span>
+          <span class="language-divider" aria-hidden="true">/</span>
+          <span class="language-option language-option-en">EN</span>
+        </a>
+        
+        
+      </div>
+    </div>
+  </header>
+
+  <main id="top" class="page">
+    <aside class="sidebar" aria-label="个人信息与技能">
+      <section class="identity">
+        <img class="avatar" src="https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg" alt="" width="1024" height="1466">
+        <h1>豆雨桐</h1>
+        <p class="role">Senior Technical Artist<br>Tools &amp; Pipeline / Rendering</p>
+        <p class="career-status">D10 · Outstanding ×5</p>
+        <ul class="contact-list">
+          <li><span>手机</span><a href="tel:+8613370090613">+86 13370090613</a></li>
+          <li><span>邮箱</span><a href="mailto:doujiiscool@gmail.com">doujiiscool@gmail.com</a></li>
+          <li><span>作品集</span><span class="portfolio-value">—</span></li>
+        </ul>
+      </section>
+
+      <section id="education" class="side-section">
+        <h2>教育经历</h2>
+        <article class="education-item">
+          <h3>同济大学｜软件工程<br>学术型硕士（保送）</h3>
+          <p>软件学院数字媒体实验室</p>
+          <time datetime="2017/2020">2017–2020</time>
+        </article>
+        <article class="education-item">
+          <h3>同济大学｜软件工程｜本科</h3>
+          <p>软件学院</p>
+          <time datetime="2013/2017">2013–2017</time>
+        </article>
+      </section>
+
+      <section class="side-section">
+        <h2>核心技能</h2>
+        <div class="skill-group">
+          <h3>引擎与渲染</h3>
+          <ul class="tag-list">
+            <li>Unity</li>
+            <li>Unreal</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>工具与编程</h3>
+          <ul class="tag-list">
+            <li>Shader</li>
+            <li>C#</li>
+            <li>C++</li>
+            <li>Python</li>
+            <li>MaxScript</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>软件</h3>
+          <ul class="tag-list">
+            <li>3ds Max</li>
+            <li>Blender</li>
+            <li>Maya</li>
+            <li>Substance Designer</li>
+            <li>Substance Painter</li>
+            <li>Photoshop</li>
+            <li>Figma</li>
+            <li>RenderDoc</li>
+            <li>Nsight Graphics</li>
+            <li>Snapdragon Profiler</li>
+          </ul>
+        </div>
+      </section>
+    </aside>
+
+    <div id="main-content" class="content">
+      <section id="experience" class="section">
+        <h2 class="section-heading">关于我</h2>
+        <article class="experience">
+          <header class="experience-header" hidden="">
+            <h3><br></h3>
+            <span class="period"><br><br></span>
+          </header>
+          <ul class="bullets experience-summary">
+            
+            
+            
+            
+          <li><span class="editable-list-content">毕业后至今，都在腾讯游戏｜天美工作室群（T1 工作室）担任技术美术，深度参与SLG游戏《重返帝国》（Unity），派对类游戏《元梦之星》（Unreal）从预研到上线的全流程，同期支持多个Ｒ＆Ｄ项目。主要负责多项目的资产规范与规格制定，搭建通用化的美术工具，开发落地多种复杂渲染效果，维护渲染管线与优化游戏性能。</span></li><li><span class="editable-list-content">审美编程双在线，不仅能够快速响应解决临时简单需求，更愿意深挖钻研复杂渲染功能及效果，对实时高性能渲染有浓厚的兴趣和丰富的经验，喜欢接触尝试新兴有挑战的领域，善于乐于沟通并帮助美术解决问题</span></li></ul>
+        </article>
+      </section>
+
+      <section id="projects" class="section">
+        <h2 class="section-heading">重点项目</h2>
+        <div class="project-list">
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+        <article class="project">
+            <span class="project-label">3ds Max / Blender / Maya</span>
+            <header class="project-header">
+              <div class="project-title-line">
+                <h3>DCC 工具包</h3>
+                <span class="period">2022–2026</span>
+              </div>
+              <div class="project-actions">
+                <a class="project-link" href="项目详情/T1_3dsMax工具包.html" aria-label="查看项目详情：DCC 工具包" title="查看项目详情"><span class="project-link-text">查看</span>
+                  <svg class="project-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg>
+                </a>
+              </div>
+            </header>
+            <ul class="bullets">
+              <li><span class="editable-list-content">长期负责统筹DCC工具的需求收集，方案设计及落地实现，解决美术生产卡点，提升资产生产效率及正确性</span></li>
+              <li><span class="editable-list-content">包含模型的正确性与规范性检查，模型的自动纠错及批量导出，顶点AO烘焙与编辑工具，LOD预览工具，LOD 骨骼重排/比对工具，发型适配工具，多模型接缝消除，动画拆分塌陷，FBX/Prefab 一键导出 Blender、贴图合并拆分工具等</span></li>
+              
+            </ul>
+          </article><article class="project"><span class="project-label">ComfyUI / Figma / Blender</span><header class="project-header"><div class="project-title-line"><h3>AI工作流研究</h3><span class="period">2024–2026</span></div><div class="project-actions"><a class="project-link" href="项目详情/AI工作流研究.html" title="查看项目详情" aria-label="查看项目详情：AI工作流研究"><span class="project-link-text">查看</span><svg class="project-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg></a></div></header><ul class="bullets custom-project-bullets"><li><span class="editable-list-content">探索ai工具在美术资产生产流程中的切入点，涉及设计，建模，修改，评估，入版等全部流程，覆盖原画，UX，角色场景建模，拓扑，减面，绑定，动画，KV视频等多个方面，提供网页服务，接口，插件等各类工具</span></li></ul></article><article class="project">
+            <span class="project-label">Unity URP / Unreal Forward</span>
+            <header class="project-header">
+              <div class="project-title-line">
+                <h3>帧预测</h3>
+                <span class="period">2024–2025</span>
+              </div>
+              <div class="project-actions">
+                <a class="project-link" href="项目详情/帧预测.html" aria-label="查看项目详情：帧预测" title="查看项目详情"><span class="project-link-text">查看</span>
+                  <svg class="project-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg>
+                </a>
+              </div>
+            </header>
+            <ul class="bullets">
+              
+              
+              
+              
+            <li><span class="editable-list-content">独立在Unity URP及UE Forward管线中，实现了一套提升移动端游戏画面帧率的帧预测算法，适配实装进了AOE、LetsGo项目中，深度修改渲染管线，解决了多种兼容性和边界问题，在不改变美术资产规格的前提下，为移动端高帧率提供了可能</span></li><li><span class="editable-list-content">Unity 测试中 RenderLoop 单帧时间约降至原来的 26%；GPU Usage 47.1→28.5（-39.5%）；整体功耗数值 6.44→4.76（-26%）。</span></li></ul>
+          </article><article class="project">
+            <span class="project-label">Unity</span>
+            <header class="project-header">
+              <div class="project-title-line">
+                <h3>移动端体渲染</h3>
+                <span class="period">2024–2025</span>
+              </div>
+              <div class="project-actions">
+                <a class="project-link" href="项目详情/移动端体渲染与分帧重建.html" aria-label="查看项目详情：移动端体渲染" title="查看项目详情"><span class="project-link-text">查看</span>
+                  <svg class="project-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg>
+                </a>
+              </div>
+            </header>
+            <ul class="bullets">
+              
+              
+            <li><span class="editable-list-content">设计实现了一套方便易用，效果出众，性能优异的移动端体渲染方案，通过步数限制，降升分辨率，简化计算，分帧优化等方法，将传统Raymarching算法压缩至可接受的开销内，最终提供了完善的体积光编辑器，云雾迷雾编辑器</span></li></ul>
+          </article><article class="project">
+            <span class="project-label">Standards / Reverse Engineering / Optimization</span>
+            <header class="project-header">
+              <div class="project-title-line">
+                <h3>规范、逆向与性能优化</h3>
+                <span class="period">2020–2026</span>
+              </div>
+              <div class="project-actions">
+                <a class="project-link" href="项目详情/规范、逆向与性能优化.html" aria-label="查看项目详情：规范、逆向与性能优化" title="查看项目详情"><span class="project-link-text">查看</span>
+                  <svg class="project-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg>
+                </a>
+              </div>
+            </header>
+            <ul class="bullets">
+              <li><span class="editable-list-content">依据玩法、资产通用性与分包策略，为 AOE、AOE2及多个预研项目制定模型、贴图、特效、LOD、骨骼与动画等资产的性能要求及命名路径规范，将规则接入检查、统计和资源治理流程，并通过存量资产修正与开发期兼容方案推动美术团队低成本接入，支持跨项目复用与持续迭代</span></li>
+              
+              <li><span class="editable-list-content">长期跟进多个项目的前期探索阶段，包括同类产品的资产、渲染逆向，沉淀破解，复刻，渲染分析，性能分析的经验及相关脚本工具</span></li>
+            <li><span class="editable-list-content">通过脚本工具，长期监控Shader变体数、包体大小、关卡帧率与资源复杂度，并制订shader编写白皮书，编写教学文章，进行组内分享等</span></li></ul>
+          </article><article class="project">
+            <span class="project-label">Unity</span>
+            <header class="project-header">
+              <div class="project-title-line">
+                <h3>GPU 草海</h3>
+                <span class="period">2023</span>
+              </div>
+              <div class="project-actions">
+                <a class="project-link" href="项目详情/GPU草海与大规模植被.html" aria-label="查看项目详情：GPU 草海" title="查看项目详情"><span class="project-link-text">查看</span>
+                  <svg class="project-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg>
+                </a>
+              </div>
+            </header>
+            <ul class="bullets">
+              
+              
+            <li><span class="editable-list-content">设计实现了移动端可承受的GPU草海效果，支持草簇，风场，视角适配，地形适配，多画风适配等实用功能</span></li></ul>
+          </article><article class="project">
+            <span class="project-label">Unity / Substance Designer</span>
+            <header class="project-header">
+              <div class="project-title-line">
+                <h3>地形系统研究</h3>
+                <span class="period">2022–2024</span>
+              </div>
+              <div class="project-actions">
+                <a class="project-link" href="项目详情/地形系统研究与工程复现.html" aria-label="查看项目详情：地形系统研究" title="查看项目详情"><span class="project-link-text">查看</span>
+                  <svg class="project-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg>
+                </a>
+              </div>
+            </header>
+            <ul class="bullets">
+              
+              
+            <li><span class="editable-list-content">风格化地形系统的研究与实现，跑通了具有高低落差的风格化地形的demo，提供相关制作思路及工具。跟进解决山石与地形融合的相关问题。</span></li></ul>
+          </article><article class="project">
+            <span class="project-label">Unreal</span>
+            <header class="project-header">
+              <div class="project-title-line">
+                <h3>角色渲染</h3>
+                <span class="period">2025.11–2026.04</span>
+              </div>
+              <div class="project-actions">
+                <a class="project-link" href="项目详情/角色渲染.html" aria-label="查看项目详情：角色渲染" title="查看项目详情"><span class="project-link-text">查看</span>
+                  <svg class="project-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg>
+                </a>
+              </div>
+            </header>
+            <ul class="bullets">
+              <li><span class="editable-list-content">在 R&amp;D 项目中从零打通 UE5 复杂角色毛发与布料表现流程，覆盖 Groom / Hair Card、风动、动态骨骼、辫子骨骼生成、披风动画与布料模拟</span></li>
+              <li><span class="editable-list-content">跑通任意模型及骨架适配 MetaHuman 体系的流程，通过编写 DCC 工具，解决不同骨架结构及拓扑引入 MetaHuman 体系后的错位、飞点、变形等问题。</span></li>
+              <li><span class="editable-list-content">提供角色基础材质，包括套装、皮肤、毛发、眼球、丝袜等。</span></li>
+            </ul>
+          </article><article class="project">
+            <span class="project-label">Others</span>
+            <header class="project-header">
+              <div class="project-title-line">
+                <h3>其他效果</h3>
+                <span class="period">持续积累</span>
+              </div>
+              <div class="project-actions">
+                <a class="project-link" href="项目详情/其他效果.html" aria-label="查看项目详情：其他效果" title="查看项目详情"><span class="project-link-text">查看</span>
+                  <svg class="project-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg>
+                </a>
+              </div>
+            </header>
+            <ul class="bullets">
+              <li><span class="editable-list-content">汇总跨项目中规模较小、但具有代表性的渲染、材质、特效和编辑器需求。</span></li>
+              
+            </ul>
+          </article></div>
+      </section>
+
+      <section id="other" class="section">
+        <h2 class="section-heading">其他</h2>
+        <div class="other-grid">
+          <article class="other-card games-card">
+            <h3>游戏经历</h3>
+            <p>Overwatch（3000+h）、Valorant（神话 1）、Delta Force、R6、PUBG、LOL、Stardew Valley……</p>
+            <p class="games-background-note">主页背景展示的是我最常玩的英雄集合。</p>
+          </article>
+          <article class="other-card has-detail-link">
+            <h3>爱好与个人作品</h3>
+            <p>绘画、吉他、舞蹈</p>
+            <a class="other-link" href="项目详情/个人作品与兴趣.html" aria-label="查看个人作品与兴趣" title="查看个人作品与兴趣">
+              <span>查看作品</span>
+              <span class="other-link-arrow" aria-hidden="true">→</span>
+            </a>
+          </article>
+        </div>
+        
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <span>豆雨桐｜Senior Technical Artist</span>
+      <span>Tools &amp; Pipeline / Rendering</span>
+    </div>
+  </footer>
+
+  
+  
+
+  
+
+
+
+
+</body></html>
