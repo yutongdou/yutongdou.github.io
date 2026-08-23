@@ -13,6 +13,36 @@
     const pdfCloseButton = pdfDialog?.querySelector("[data-pdf-close]");
     let imageMode = "screen";
 
+    const hydrateVideo = (video) => {
+      const src = video.dataset.src;
+      if (!src || video.hasAttribute("src")) return;
+      video.src = src;
+      video.removeAttribute("data-src");
+    };
+    const lazyVideos = [...document.querySelectorAll("video[data-src]")];
+    lazyVideos.forEach((video) => {
+      video.addEventListener("pointerdown", () => hydrateVideo(video), { once: true });
+      video.addEventListener("focus", () => hydrateVideo(video), { once: true });
+    });
+    if ("IntersectionObserver" in window) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          hydrateVideo(entry.target);
+          observer.unobserve(entry.target);
+        });
+      }, { rootMargin: "400px 0px" });
+      lazyVideos.forEach((video) => observer.observe(video));
+    } else {
+      lazyVideos.forEach(hydrateVideo);
+    }
+    document.addEventListener("play", (event) => {
+      if (!(event.target instanceof HTMLVideoElement)) return;
+      document.querySelectorAll("video").forEach((video) => {
+        if (video !== event.target) video.pause();
+      });
+    }, true);
+
     const updateImageMode = () => {
       if (!imagePreview || !imageFitButton) return;
       const fitWidth = imageMode === "width";
