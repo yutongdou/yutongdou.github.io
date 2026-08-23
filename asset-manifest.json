@@ -128,6 +128,7 @@
   "siteFiles": [
     "index.html",
     "index-en.html",
+    "index-zh.html",
     ".nojekyll",
     "项目详情/project-detail.css",
     "项目详情/project-detail-viewer.js",
@@ -275,7 +276,7 @@
       "references": [
         {
           "logicalId": "shared/profile-photo",
-          "page": "index.html",
+          "page": "index-zh.html",
           "language": "zh-CN",
           "locations": [
             "img.avatar[src]"
@@ -284,7 +285,7 @@
         },
         {
           "logicalId": "shared/profile-photo",
-          "page": "index-en.html",
+          "page": "index.html",
           "language": "en",
           "locations": [
             "img.avatar[src]"
@@ -470,6 +471,15 @@
             "aside img.avatar[src]"
           ],
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
+        },
+        {
+          "logicalId": "shared/profile-photo",
+          "page": "index-en.html",
+          "language": "en",
+          "locations": [
+            "img.avatar[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
         }
       ]
     },
@@ -488,7 +498,7 @@
       "references": [
         {
           "logicalId": "shared/site-background",
-          "page": "index.html",
+          "page": "index-zh.html",
           "language": "zh-CN",
           "locations": [
             "style url()"
@@ -497,7 +507,7 @@
         },
         {
           "logicalId": "shared/site-background",
-          "page": "index-en.html",
+          "page": "index.html",
           "language": "en",
           "locations": [
             "style url()"
@@ -510,6 +520,15 @@
           "language": "shared",
           "locations": [
             "css url()"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp"
+        },
+        {
+          "logicalId": "shared/site-background",
+          "page": "index-en.html",
+          "language": "en",
+          "locations": [
+            "style url()"
           ],
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp"
         }
@@ -3281,7 +3300,7 @@
       "cacheControl": "public, max-age=31536000, immutable",
       "references": [
         {
-          "page": "index.html",
+          "page": "index-zh.html",
           "language": "zh-CN",
           "locations": [
             "img.avatar[src]"
@@ -3289,7 +3308,7 @@
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
         },
         {
-          "page": "index-en.html",
+          "page": "index.html",
           "language": "en",
           "locations": [
             "img.avatar[src]"
@@ -3455,6 +3474,14 @@
             "aside img.avatar[src]"
           ],
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
+        },
+        {
+          "page": "index-en.html",
+          "language": "en",
+          "locations": [
+            "img.avatar[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
         }
       ]
     },
@@ -3474,7 +3501,7 @@
       "cacheControl": "public, max-age=31536000, immutable",
       "references": [
         {
-          "page": "index.html",
+          "page": "index-zh.html",
           "language": "zh-CN",
           "locations": [
             "style url()"
@@ -3482,7 +3509,7 @@
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp"
         },
         {
-          "page": "index-en.html",
+          "page": "index.html",
           "language": "en",
           "locations": [
             "style url()"
@@ -3494,6 +3521,14 @@
           "language": "shared",
           "locations": [
             "css url()"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp"
+        },
+        {
+          "page": "index-en.html",
+          "language": "en",
+          "locations": [
+            "style url()"
           ],
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp"
         }
