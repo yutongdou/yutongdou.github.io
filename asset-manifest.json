@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishId": "20260823-233113-b5997182",
-  "generatedAt": "2026-08-23T15:31:13.213Z",
+  "publishId": "20260830-160600-b5997182",
+  "generatedAt": "2026-08-30T08:06:00.000Z",
   "mode": "aliyun",
   "layout": {
     "githubPagesRoot": "github-pages/",
@@ -37,11 +37,11 @@
     ]
   },
   "totals": {
-    "projects": 10,
-    "assets": 82,
-    "uniqueObjects": 82,
-    "sourceBytes": 479904636,
-    "uploadBytes": 479904636
+    "projects": 6,
+    "assets": 84,
+    "uniqueObjects": 84,
+    "sourceBytes": 497336123,
+    "uploadBytes": 497336123
   },
   "activeProjects": [
     {
@@ -66,38 +66,6 @@
       "publishedPages": [
         "项目详情/帧预测.html",
         "项目详情/帧预测_en.html"
-      ]
-    },
-    {
-      "id": "mobile-volumetric-reconstruction",
-      "sourceFile": "移动端体渲染与分帧重建.html",
-      "publishedPages": [
-        "项目详情/移动端体渲染与分帧重建.html",
-        "项目详情/移动端体渲染与分帧重建_en.html"
-      ]
-    },
-    {
-      "id": "gpu-grass-vegetation",
-      "sourceFile": "GPU草海与大规模植被.html",
-      "publishedPages": [
-        "项目详情/GPU草海与大规模植被.html",
-        "项目详情/GPU草海与大规模植被_en.html"
-      ]
-    },
-    {
-      "id": "terrain-system-reproduction",
-      "sourceFile": "地形系统研究与工程复现.html",
-      "publishedPages": [
-        "项目详情/地形系统研究与工程复现.html",
-        "项目详情/地形系统研究与工程复现_en.html"
-      ]
-    },
-    {
-      "id": "character-rendering",
-      "sourceFile": "角色渲染.html",
-      "publishedPages": [
-        "项目详情/角色渲染.html",
-        "项目详情/角色渲染_en.html"
       ]
     },
     {
@@ -138,14 +106,6 @@
     "项目详情/规范、逆向与性能优化_en.html",
     "项目详情/帧预测.html",
     "项目详情/帧预测_en.html",
-    "项目详情/移动端体渲染与分帧重建.html",
-    "项目详情/移动端体渲染与分帧重建_en.html",
-    "项目详情/GPU草海与大规模植被.html",
-    "项目详情/GPU草海与大规模植被_en.html",
-    "项目详情/地形系统研究与工程复现.html",
-    "项目详情/地形系统研究与工程复现_en.html",
-    "项目详情/角色渲染.html",
-    "项目详情/角色渲染_en.html",
     "项目详情/其他效果.html",
     "项目详情/其他效果_en.html",
     "项目详情/AI工作流研究.html",
@@ -157,6 +117,10 @@
   "compatibilityWarnings": [
     {
       "objectKey": "v1/sha256/eb/ebb15259ae2cf3cd56e54580c620837ed28af859ee87e91f4a18d0fe7d4051ee.mp4",
+      "message": "容器格式可发布，但浏览器支持仍取决于视频/音频编码；MP4 推荐 H.264 + AAC，并需在 Chrome、Safari 与移动端实测。"
+    },
+    {
+      "objectKey": "v1/sha256/5f/5f1b279932167772676ea8bd8bda82aa45693c21124fc21afcaf4acc1ae3bb67.mp4",
       "message": "容器格式可发布，但浏览器支持仍取决于视频/音频编码；MP4 推荐 H.264 + AAC，并需在 Chrome、Safari 与移动端实测。"
     },
     {
@@ -180,6 +144,14 @@
       "message": "容器格式可发布，但浏览器支持仍取决于视频/音频编码；MP4 推荐 H.264 + AAC，并需在 Chrome、Safari 与移动端实测。"
     },
     {
+      "objectKey": "v1/sha256/9b/9bce26cfb6d75b619486217541c6e6ea132f0b06dc7ecb0472ff4bdb24575cda.mp4",
+      "message": "容器格式可发布，但浏览器支持仍取决于视频/音频编码；MP4 推荐 H.264 + AAC，并需在 Chrome、Safari 与移动端实测。"
+    },
+    {
+      "objectKey": "v1/sha256/b9/b9ff26c95f2a5bdfafcb50a0d7e581bfcb4357354925ad1cbfc51694593f25f5.mp4",
+      "message": "容器格式可发布，但浏览器支持仍取决于视频/音频编码；MP4 推荐 H.264 + AAC，并需在 Chrome、Safari 与移动端实测。"
+    },
+    {
       "objectKey": "v1/sha256/11/1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13.mp4",
       "message": "容器格式可发布，但浏览器支持仍取决于视频/音频编码；MP4 推荐 H.264 + AAC，并需在 Chrome、Safari 与移动端实测。"
     },
@@ -193,14 +165,6 @@
     },
     {
       "objectKey": "v1/sha256/ba/baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed.mp4",
-      "message": "容器格式可发布，但浏览器支持仍取决于视频/音频编码；MP4 推荐 H.264 + AAC，并需在 Chrome、Safari 与移动端实测。"
-    },
-    {
-      "objectKey": "v1/sha256/9b/9bce26cfb6d75b619486217541c6e6ea132f0b06dc7ecb0472ff4bdb24575cda.mp4",
-      "message": "容器格式可发布，但浏览器支持仍取决于视频/音频编码；MP4 推荐 H.264 + AAC，并需在 Chrome、Safari 与移动端实测。"
-    },
-    {
-      "objectKey": "v1/sha256/b9/b9ff26c95f2a5bdfafcb50a0d7e581bfcb4357354925ad1cbfc51694593f25f5.mp4",
       "message": "容器格式可发布，但浏览器支持仍取决于视频/音频编码；MP4 推荐 H.264 + AAC，并需在 Chrome、Safari 与移动端实测。"
     },
     {
@@ -276,8 +240,8 @@
       "references": [
         {
           "logicalId": "shared/profile-photo",
-          "page": "index-zh.html",
-          "language": "zh-CN",
+          "page": "index.html",
+          "language": "en",
           "locations": [
             "img.avatar[src]"
           ],
@@ -285,8 +249,17 @@
         },
         {
           "logicalId": "shared/profile-photo",
-          "page": "index.html",
+          "page": "index-en.html",
           "language": "en",
+          "locations": [
+            "img.avatar[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
+        },
+        {
+          "logicalId": "shared/profile-photo",
+          "page": "index-zh.html",
+          "language": "zh-CN",
           "locations": [
             "img.avatar[src]"
           ],
@@ -348,78 +321,6 @@
         },
         {
           "logicalId": "shared/profile-photo",
-          "page": "项目详情/移动端体渲染与分帧重建.html",
-          "language": "zh-CN",
-          "locations": [
-            "aside img.avatar[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
-        },
-        {
-          "logicalId": "shared/profile-photo",
-          "page": "项目详情/移动端体渲染与分帧重建_en.html",
-          "language": "en",
-          "locations": [
-            "aside img.avatar[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
-        },
-        {
-          "logicalId": "shared/profile-photo",
-          "page": "项目详情/GPU草海与大规模植被.html",
-          "language": "zh-CN",
-          "locations": [
-            "aside img.avatar[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
-        },
-        {
-          "logicalId": "shared/profile-photo",
-          "page": "项目详情/GPU草海与大规模植被_en.html",
-          "language": "en",
-          "locations": [
-            "aside img.avatar[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
-        },
-        {
-          "logicalId": "shared/profile-photo",
-          "page": "项目详情/地形系统研究与工程复现.html",
-          "language": "zh-CN",
-          "locations": [
-            "aside img.avatar[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
-        },
-        {
-          "logicalId": "shared/profile-photo",
-          "page": "项目详情/地形系统研究与工程复现_en.html",
-          "language": "en",
-          "locations": [
-            "aside img.avatar[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
-        },
-        {
-          "logicalId": "shared/profile-photo",
-          "page": "项目详情/角色渲染.html",
-          "language": "zh-CN",
-          "locations": [
-            "aside img.avatar[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
-        },
-        {
-          "logicalId": "shared/profile-photo",
-          "page": "项目详情/角色渲染_en.html",
-          "language": "en",
-          "locations": [
-            "aside img.avatar[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
-        },
-        {
-          "logicalId": "shared/profile-photo",
           "page": "项目详情/其他效果.html",
           "language": "zh-CN",
           "locations": [
@@ -471,15 +372,6 @@
             "aside img.avatar[src]"
           ],
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
-        },
-        {
-          "logicalId": "shared/profile-photo",
-          "page": "index-en.html",
-          "language": "en",
-          "locations": [
-            "img.avatar[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
         }
       ]
     },
@@ -498,8 +390,8 @@
       "references": [
         {
           "logicalId": "shared/site-background",
-          "page": "index-zh.html",
-          "language": "zh-CN",
+          "page": "index.html",
+          "language": "en",
           "locations": [
             "style url()"
           ],
@@ -507,8 +399,17 @@
         },
         {
           "logicalId": "shared/site-background",
-          "page": "index.html",
+          "page": "index-en.html",
           "language": "en",
+          "locations": [
+            "style url()"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp"
+        },
+        {
+          "logicalId": "shared/site-background",
+          "page": "index-zh.html",
+          "language": "zh-CN",
           "locations": [
             "style url()"
           ],
@@ -520,15 +421,6 @@
           "language": "shared",
           "locations": [
             "css url()"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp"
-        },
-        {
-          "logicalId": "shared/site-background",
-          "page": "index-en.html",
-          "language": "en",
-          "locations": [
-            "style url()"
           ],
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp"
         }
@@ -564,6 +456,39 @@
             "video[data-src]"
           ],
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/eb/ebb15259ae2cf3cd56e54580c620837ed28af859ee87e91f4a18d0fe7d4051ee.mp4"
+        }
+      ]
+    },
+    {
+      "objectKey": "v1/sha256/5f/5f1b279932167772676ea8bd8bda82aa45693c21124fc21afcaf4acc1ae3bb67.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/5f/5f1b279932167772676ea8bd8bda82aa45693c21124fc21afcaf4acc1ae3bb67.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/5f/5f1b279932167772676ea8bd8bda82aa45693c21124fc21afcaf4acc1ae3bb67.mp4",
+      "sha256": "5f1b279932167772676ea8bd8bda82aa45693c21124fc21afcaf4acc1ae3bb67",
+      "bytes": 15510580,
+      "contentType": "video/mp4",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "logicalIds": [
+        "project/t1-3dsmax-toolkit/1869d590-f210-46c4-ad5d-f755583eab29"
+      ],
+      "references": [
+        {
+          "logicalId": "project/t1-3dsmax-toolkit/1869d590-f210-46c4-ad5d-f755583eab29",
+          "page": "项目详情/T1_3dsMax工具包.html",
+          "language": "zh-CN",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/5f/5f1b279932167772676ea8bd8bda82aa45693c21124fc21afcaf4acc1ae3bb67.mp4"
+        },
+        {
+          "logicalId": "project/t1-3dsmax-toolkit/1869d590-f210-46c4-ad5d-f755583eab29",
+          "page": "项目详情/T1_3dsMax工具包_en.html",
+          "language": "en",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/5f/5f1b279932167772676ea8bd8bda82aa45693c21124fc21afcaf4acc1ae3bb67.mp4"
         }
       ]
     },
@@ -1538,138 +1463,6 @@
       ]
     },
     {
-      "objectKey": "v1/sha256/11/1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13.mp4",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/11/1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13.mp4",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/11/1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13.mp4",
-      "sha256": "1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13",
-      "bytes": 25124954,
-      "contentType": "video/mp4",
-      "contentDisposition": null,
-      "cacheControl": "public, max-age=31536000, immutable",
-      "logicalIds": [
-        "project/mobile-volumetric-reconstruction/2560e1eb-4190-4c3f-86d6-80a7646cbb3d"
-      ],
-      "references": [
-        {
-          "logicalId": "project/mobile-volumetric-reconstruction/2560e1eb-4190-4c3f-86d6-80a7646cbb3d",
-          "page": "项目详情/移动端体渲染与分帧重建.html",
-          "language": "zh-CN",
-          "locations": [
-            "video[data-src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/11/1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13.mp4"
-        },
-        {
-          "logicalId": "project/mobile-volumetric-reconstruction/2560e1eb-4190-4c3f-86d6-80a7646cbb3d",
-          "page": "项目详情/移动端体渲染与分帧重建_en.html",
-          "language": "en",
-          "locations": [
-            "video[data-src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/11/1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13.mp4"
-        }
-      ]
-    },
-    {
-      "objectKey": "v1/sha256/8f/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.mp4",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/8f/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.mp4",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8f/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.mp4",
-      "sha256": "8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac",
-      "bytes": 3853773,
-      "contentType": "video/mp4",
-      "contentDisposition": null,
-      "cacheControl": "public, max-age=31536000, immutable",
-      "logicalIds": [
-        "project/mobile-volumetric-reconstruction/3c4293f8-4daf-43ea-bd98-4038ef7ead0c"
-      ],
-      "references": [
-        {
-          "logicalId": "project/mobile-volumetric-reconstruction/3c4293f8-4daf-43ea-bd98-4038ef7ead0c",
-          "page": "项目详情/移动端体渲染与分帧重建.html",
-          "language": "zh-CN",
-          "locations": [
-            "video[data-src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8f/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.mp4"
-        },
-        {
-          "logicalId": "project/mobile-volumetric-reconstruction/3c4293f8-4daf-43ea-bd98-4038ef7ead0c",
-          "page": "项目详情/移动端体渲染与分帧重建_en.html",
-          "language": "en",
-          "locations": [
-            "video[data-src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8f/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.mp4"
-        }
-      ]
-    },
-    {
-      "objectKey": "v1/sha256/88/88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb.mp4",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/88/88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb.mp4",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/88/88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb.mp4",
-      "sha256": "88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb",
-      "bytes": 7896985,
-      "contentType": "video/mp4",
-      "contentDisposition": null,
-      "cacheControl": "public, max-age=31536000, immutable",
-      "logicalIds": [
-        "project/mobile-volumetric-reconstruction/fe638d20-dfed-439e-9391-ee4872f10bcd"
-      ],
-      "references": [
-        {
-          "logicalId": "project/mobile-volumetric-reconstruction/fe638d20-dfed-439e-9391-ee4872f10bcd",
-          "page": "项目详情/移动端体渲染与分帧重建.html",
-          "language": "zh-CN",
-          "locations": [
-            "video[data-src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/88/88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb.mp4"
-        },
-        {
-          "logicalId": "project/mobile-volumetric-reconstruction/fe638d20-dfed-439e-9391-ee4872f10bcd",
-          "page": "项目详情/移动端体渲染与分帧重建_en.html",
-          "language": "en",
-          "locations": [
-            "video[data-src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/88/88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb.mp4"
-        }
-      ]
-    },
-    {
-      "objectKey": "v1/sha256/ba/baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed.mp4",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/ba/baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed.mp4",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/ba/baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed.mp4",
-      "sha256": "baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed",
-      "bytes": 6594298,
-      "contentType": "video/mp4",
-      "contentDisposition": null,
-      "cacheControl": "public, max-age=31536000, immutable",
-      "logicalIds": [
-        "project/mobile-volumetric-reconstruction/7510a870-e7f4-4abe-a086-6d2157d27d13"
-      ],
-      "references": [
-        {
-          "logicalId": "project/mobile-volumetric-reconstruction/7510a870-e7f4-4abe-a086-6d2157d27d13",
-          "page": "项目详情/移动端体渲染与分帧重建.html",
-          "language": "zh-CN",
-          "locations": [
-            "video[data-src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/ba/baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed.mp4"
-        },
-        {
-          "logicalId": "project/mobile-volumetric-reconstruction/7510a870-e7f4-4abe-a086-6d2157d27d13",
-          "page": "项目详情/移动端体渲染与分帧重建_en.html",
-          "language": "en",
-          "locations": [
-            "video[data-src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/ba/baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed.mp4"
-        }
-      ]
-    },
-    {
       "objectKey": "v1/sha256/9b/9bce26cfb6d75b619486217541c6e6ea132f0b06dc7ecb0472ff4bdb24575cda.mp4",
       "packagePath": "aliyun-oss-optimized/v1/sha256/9b/9bce26cfb6d75b619486217541c6e6ea132f0b06dc7ecb0472ff4bdb24575cda.mp4",
       "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/9b/9bce26cfb6d75b619486217541c6e6ea132f0b06dc7ecb0472ff4bdb24575cda.mp4",
@@ -1679,12 +1472,12 @@
       "contentDisposition": null,
       "cacheControl": "public, max-age=31536000, immutable",
       "logicalIds": [
-        "project/gpu-grass-vegetation/084425d7-e6d5-4e46-a1cb-21336d093f9a"
+        "project/frame-prediction/ff85d97c-9527-4416-b3f1-fd9f99109a57"
       ],
       "references": [
         {
-          "logicalId": "project/gpu-grass-vegetation/084425d7-e6d5-4e46-a1cb-21336d093f9a",
-          "page": "项目详情/GPU草海与大规模植被.html",
+          "logicalId": "project/frame-prediction/ff85d97c-9527-4416-b3f1-fd9f99109a57",
+          "page": "项目详情/帧预测.html",
           "language": "zh-CN",
           "locations": [
             "video[data-src]"
@@ -1692,8 +1485,8 @@
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/9b/9bce26cfb6d75b619486217541c6e6ea132f0b06dc7ecb0472ff4bdb24575cda.mp4"
         },
         {
-          "logicalId": "project/gpu-grass-vegetation/084425d7-e6d5-4e46-a1cb-21336d093f9a",
-          "page": "项目详情/GPU草海与大规模植被_en.html",
+          "logicalId": "project/frame-prediction/ff85d97c-9527-4416-b3f1-fd9f99109a57",
+          "page": "项目详情/帧预测_en.html",
           "language": "en",
           "locations": [
             "video[data-src]"
@@ -1712,12 +1505,12 @@
       "contentDisposition": null,
       "cacheControl": "public, max-age=31536000, immutable",
       "logicalIds": [
-        "project/terrain-system-reproduction/479431a3-8ae8-4b89-ae41-795de212c5b2"
+        "project/frame-prediction/6edcc143-34c4-4b05-893c-b7be0adab5f3"
       ],
       "references": [
         {
-          "logicalId": "project/terrain-system-reproduction/479431a3-8ae8-4b89-ae41-795de212c5b2",
-          "page": "项目详情/地形系统研究与工程复现.html",
+          "logicalId": "project/frame-prediction/6edcc143-34c4-4b05-893c-b7be0adab5f3",
+          "page": "项目详情/帧预测.html",
           "language": "zh-CN",
           "locations": [
             "video[data-src]"
@@ -1725,13 +1518,145 @@
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/b9/b9ff26c95f2a5bdfafcb50a0d7e581bfcb4357354925ad1cbfc51694593f25f5.mp4"
         },
         {
-          "logicalId": "project/terrain-system-reproduction/479431a3-8ae8-4b89-ae41-795de212c5b2",
-          "page": "项目详情/地形系统研究与工程复现_en.html",
+          "logicalId": "project/frame-prediction/6edcc143-34c4-4b05-893c-b7be0adab5f3",
+          "page": "项目详情/帧预测_en.html",
           "language": "en",
           "locations": [
             "video[data-src]"
           ],
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/b9/b9ff26c95f2a5bdfafcb50a0d7e581bfcb4357354925ad1cbfc51694593f25f5.mp4"
+        }
+      ]
+    },
+    {
+      "objectKey": "v1/sha256/11/1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/11/1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/11/1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13.mp4",
+      "sha256": "1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13",
+      "bytes": 25124954,
+      "contentType": "video/mp4",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "logicalIds": [
+        "project/frame-prediction/fdad2352-7d1e-4a8d-b317-5f09379c6c05"
+      ],
+      "references": [
+        {
+          "logicalId": "project/frame-prediction/fdad2352-7d1e-4a8d-b317-5f09379c6c05",
+          "page": "项目详情/帧预测.html",
+          "language": "zh-CN",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/11/1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13.mp4"
+        },
+        {
+          "logicalId": "project/frame-prediction/fdad2352-7d1e-4a8d-b317-5f09379c6c05",
+          "page": "项目详情/帧预测_en.html",
+          "language": "en",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/11/1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13.mp4"
+        }
+      ]
+    },
+    {
+      "objectKey": "v1/sha256/8f/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/8f/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8f/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.mp4",
+      "sha256": "8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac",
+      "bytes": 3853773,
+      "contentType": "video/mp4",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "logicalIds": [
+        "project/frame-prediction/8ca55154-ce6e-4df2-85d9-b5d4eb2ffd04"
+      ],
+      "references": [
+        {
+          "logicalId": "project/frame-prediction/8ca55154-ce6e-4df2-85d9-b5d4eb2ffd04",
+          "page": "项目详情/帧预测.html",
+          "language": "zh-CN",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8f/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.mp4"
+        },
+        {
+          "logicalId": "project/frame-prediction/8ca55154-ce6e-4df2-85d9-b5d4eb2ffd04",
+          "page": "项目详情/帧预测_en.html",
+          "language": "en",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8f/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.mp4"
+        }
+      ]
+    },
+    {
+      "objectKey": "v1/sha256/88/88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/88/88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/88/88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb.mp4",
+      "sha256": "88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb",
+      "bytes": 7896985,
+      "contentType": "video/mp4",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "logicalIds": [
+        "project/frame-prediction/f48a734d-780e-4bef-bc16-85f9ea1f2fe0"
+      ],
+      "references": [
+        {
+          "logicalId": "project/frame-prediction/f48a734d-780e-4bef-bc16-85f9ea1f2fe0",
+          "page": "项目详情/帧预测.html",
+          "language": "zh-CN",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/88/88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb.mp4"
+        },
+        {
+          "logicalId": "project/frame-prediction/f48a734d-780e-4bef-bc16-85f9ea1f2fe0",
+          "page": "项目详情/帧预测_en.html",
+          "language": "en",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/88/88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb.mp4"
+        }
+      ]
+    },
+    {
+      "objectKey": "v1/sha256/ba/baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/ba/baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/ba/baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed.mp4",
+      "sha256": "baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed",
+      "bytes": 6594298,
+      "contentType": "video/mp4",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "logicalIds": [
+        "project/frame-prediction/033aa081-844d-4035-9273-f5176017c0f2"
+      ],
+      "references": [
+        {
+          "logicalId": "project/frame-prediction/033aa081-844d-4035-9273-f5176017c0f2",
+          "page": "项目详情/帧预测.html",
+          "language": "zh-CN",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/ba/baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed.mp4"
+        },
+        {
+          "logicalId": "project/frame-prediction/033aa081-844d-4035-9273-f5176017c0f2",
+          "page": "项目详情/帧预测_en.html",
+          "language": "en",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/ba/baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed.mp4"
         }
       ]
     },
@@ -1745,12 +1670,12 @@
       "contentDisposition": null,
       "cacheControl": "public, max-age=31536000, immutable",
       "logicalIds": [
-        "project/character-rendering/8a057218-6768-4642-bec1-3ad78272bca9"
+        "project/frame-prediction/6202a45d-9e47-4e70-b487-fdfa88f48443"
       ],
       "references": [
         {
-          "logicalId": "project/character-rendering/8a057218-6768-4642-bec1-3ad78272bca9",
-          "page": "项目详情/角色渲染.html",
+          "logicalId": "project/frame-prediction/6202a45d-9e47-4e70-b487-fdfa88f48443",
+          "page": "项目详情/帧预测.html",
           "language": "zh-CN",
           "locations": [
             "video[data-src]"
@@ -1758,8 +1683,8 @@
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/38/38deff62d89f26fdc421b4b79c4717a55634fc137e04df3d4db82495855fa999.mp4"
         },
         {
-          "logicalId": "project/character-rendering/8a057218-6768-4642-bec1-3ad78272bca9",
-          "page": "项目详情/角色渲染_en.html",
+          "logicalId": "project/frame-prediction/6202a45d-9e47-4e70-b487-fdfa88f48443",
+          "page": "项目详情/帧预测_en.html",
           "language": "en",
           "locations": [
             "video[data-src]"
@@ -1778,12 +1703,12 @@
       "contentDisposition": null,
       "cacheControl": "public, max-age=31536000, immutable",
       "logicalIds": [
-        "project/character-rendering/76d2f024-390c-465c-86ad-5617781dcf4c"
+        "project/frame-prediction/58cf9286-0aa5-4a09-baea-b3579718c3cf"
       ],
       "references": [
         {
-          "logicalId": "project/character-rendering/76d2f024-390c-465c-86ad-5617781dcf4c",
-          "page": "项目详情/角色渲染.html",
+          "logicalId": "project/frame-prediction/58cf9286-0aa5-4a09-baea-b3579718c3cf",
+          "page": "项目详情/帧预测.html",
           "language": "zh-CN",
           "locations": [
             "video[data-src]"
@@ -1791,13 +1716,48 @@
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/19/195f1ae64149aa6283b3950629342f985bad4e64b5fe642478146724173ef7fe.mp4"
         },
         {
-          "logicalId": "project/character-rendering/76d2f024-390c-465c-86ad-5617781dcf4c",
-          "page": "项目详情/角色渲染_en.html",
+          "logicalId": "project/frame-prediction/58cf9286-0aa5-4a09-baea-b3579718c3cf",
+          "page": "项目详情/帧预测_en.html",
           "language": "en",
           "locations": [
             "video[data-src]"
           ],
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/19/195f1ae64149aa6283b3950629342f985bad4e64b5fe642478146724173ef7fe.mp4"
+        }
+      ]
+    },
+    {
+      "objectKey": "v1/sha256/4e/4e1c7322bcf936e57f4b99efcf1dbdacdb092b19158eb6873f64d1e90fbaa537.png",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/4e/4e1c7322bcf936e57f4b99efcf1dbdacdb092b19158eb6873f64d1e90fbaa537.png",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/4e/4e1c7322bcf936e57f4b99efcf1dbdacdb092b19158eb6873f64d1e90fbaa537.png",
+      "sha256": "4e1c7322bcf936e57f4b99efcf1dbdacdb092b19158eb6873f64d1e90fbaa537",
+      "bytes": 1920907,
+      "contentType": "image/png",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "logicalIds": [
+        "project/frame-prediction/b6f56075-39b1-48e5-ae7c-2669cf45bbd3"
+      ],
+      "references": [
+        {
+          "logicalId": "project/frame-prediction/b6f56075-39b1-48e5-ae7c-2669cf45bbd3",
+          "page": "项目详情/帧预测.html",
+          "language": "zh-CN",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/4e/4e1c7322bcf936e57f4b99efcf1dbdacdb092b19158eb6873f64d1e90fbaa537.png"
+        },
+        {
+          "logicalId": "project/frame-prediction/b6f56075-39b1-48e5-ae7c-2669cf45bbd3",
+          "page": "项目详情/帧预测_en.html",
+          "language": "en",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/4e/4e1c7322bcf936e57f4b99efcf1dbdacdb092b19158eb6873f64d1e90fbaa537.png"
         }
       ]
     },
@@ -3300,16 +3260,24 @@
       "cacheControl": "public, max-age=31536000, immutable",
       "references": [
         {
-          "page": "index-zh.html",
-          "language": "zh-CN",
+          "page": "index.html",
+          "language": "en",
           "locations": [
             "img.avatar[src]"
           ],
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
         },
         {
-          "page": "index.html",
+          "page": "index-en.html",
           "language": "en",
+          "locations": [
+            "img.avatar[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
+        },
+        {
+          "page": "index-zh.html",
+          "language": "zh-CN",
           "locations": [
             "img.avatar[src]"
           ],
@@ -3364,70 +3332,6 @@
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
         },
         {
-          "page": "项目详情/移动端体渲染与分帧重建.html",
-          "language": "zh-CN",
-          "locations": [
-            "aside img.avatar[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
-        },
-        {
-          "page": "项目详情/移动端体渲染与分帧重建_en.html",
-          "language": "en",
-          "locations": [
-            "aside img.avatar[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
-        },
-        {
-          "page": "项目详情/GPU草海与大规模植被.html",
-          "language": "zh-CN",
-          "locations": [
-            "aside img.avatar[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
-        },
-        {
-          "page": "项目详情/GPU草海与大规模植被_en.html",
-          "language": "en",
-          "locations": [
-            "aside img.avatar[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
-        },
-        {
-          "page": "项目详情/地形系统研究与工程复现.html",
-          "language": "zh-CN",
-          "locations": [
-            "aside img.avatar[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
-        },
-        {
-          "page": "项目详情/地形系统研究与工程复现_en.html",
-          "language": "en",
-          "locations": [
-            "aside img.avatar[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
-        },
-        {
-          "page": "项目详情/角色渲染.html",
-          "language": "zh-CN",
-          "locations": [
-            "aside img.avatar[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
-        },
-        {
-          "page": "项目详情/角色渲染_en.html",
-          "language": "en",
-          "locations": [
-            "aside img.avatar[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
-        },
-        {
           "page": "项目详情/其他效果.html",
           "language": "zh-CN",
           "locations": [
@@ -3474,14 +3378,6 @@
             "aside img.avatar[src]"
           ],
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
-        },
-        {
-          "page": "index-en.html",
-          "language": "en",
-          "locations": [
-            "img.avatar[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1d/1ddbbe4aeb1ba05f61cbc27b62bbd260d3d9bc085e74f5f4ea70c8698525ae40.jpg"
         }
       ]
     },
@@ -3501,16 +3397,24 @@
       "cacheControl": "public, max-age=31536000, immutable",
       "references": [
         {
-          "page": "index-zh.html",
-          "language": "zh-CN",
+          "page": "index.html",
+          "language": "en",
           "locations": [
             "style url()"
           ],
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp"
         },
         {
-          "page": "index.html",
+          "page": "index-en.html",
           "language": "en",
+          "locations": [
+            "style url()"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp"
+        },
+        {
+          "page": "index-zh.html",
+          "language": "zh-CN",
           "locations": [
             "style url()"
           ],
@@ -3521,14 +3425,6 @@
           "language": "shared",
           "locations": [
             "css url()"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp"
-        },
-        {
-          "page": "index-en.html",
-          "language": "en",
-          "locations": [
-            "style url()"
           ],
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp"
         }
@@ -3564,6 +3460,39 @@
             "video[data-src]"
           ],
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/eb/ebb15259ae2cf3cd56e54580c620837ed28af859ee87e91f4a18d0fe7d4051ee.mp4"
+        }
+      ]
+    },
+    {
+      "logicalId": "project/t1-3dsmax-toolkit/1869d590-f210-46c4-ad5d-f755583eab29",
+      "assetId": "1869d590-f210-46c4-ad5d-f755583eab29",
+      "projectId": "t1-3dsmax-toolkit",
+      "kind": "video",
+      "sourcePath": "indexeddb/t1-3dsmax-toolkit/1869d590-f210-46c4-ad5d-f755583eab29",
+      "objectKey": "v1/sha256/5f/5f1b279932167772676ea8bd8bda82aa45693c21124fc21afcaf4acc1ae3bb67.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/5f/5f1b279932167772676ea8bd8bda82aa45693c21124fc21afcaf4acc1ae3bb67.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/5f/5f1b279932167772676ea8bd8bda82aa45693c21124fc21afcaf4acc1ae3bb67.mp4",
+      "bytes": 15510580,
+      "sha256": "5f1b279932167772676ea8bd8bda82aa45693c21124fc21afcaf4acc1ae3bb67",
+      "contentType": "video/mp4",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "references": [
+        {
+          "page": "项目详情/T1_3dsMax工具包.html",
+          "language": "zh-CN",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/5f/5f1b279932167772676ea8bd8bda82aa45693c21124fc21afcaf4acc1ae3bb67.mp4"
+        },
+        {
+          "page": "项目详情/T1_3dsMax工具包_en.html",
+          "language": "en",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/5f/5f1b279932167772676ea8bd8bda82aa45693c21124fc21afcaf4acc1ae3bb67.mp4"
         }
       ]
     },
@@ -4538,143 +4467,11 @@
       ]
     },
     {
-      "logicalId": "project/mobile-volumetric-reconstruction/2560e1eb-4190-4c3f-86d6-80a7646cbb3d",
-      "assetId": "2560e1eb-4190-4c3f-86d6-80a7646cbb3d",
-      "projectId": "mobile-volumetric-reconstruction",
+      "logicalId": "project/frame-prediction/ff85d97c-9527-4416-b3f1-fd9f99109a57",
+      "assetId": "ff85d97c-9527-4416-b3f1-fd9f99109a57",
+      "projectId": "frame-prediction",
       "kind": "video",
-      "sourcePath": "indexeddb/mobile-volumetric-reconstruction/2560e1eb-4190-4c3f-86d6-80a7646cbb3d",
-      "objectKey": "v1/sha256/11/1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13.mp4",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/11/1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13.mp4",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/11/1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13.mp4",
-      "bytes": 25124954,
-      "sha256": "1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13",
-      "contentType": "video/mp4",
-      "contentDisposition": null,
-      "cacheControl": "public, max-age=31536000, immutable",
-      "references": [
-        {
-          "page": "项目详情/移动端体渲染与分帧重建.html",
-          "language": "zh-CN",
-          "locations": [
-            "video[data-src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/11/1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13.mp4"
-        },
-        {
-          "page": "项目详情/移动端体渲染与分帧重建_en.html",
-          "language": "en",
-          "locations": [
-            "video[data-src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/11/1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13.mp4"
-        }
-      ]
-    },
-    {
-      "logicalId": "project/mobile-volumetric-reconstruction/3c4293f8-4daf-43ea-bd98-4038ef7ead0c",
-      "assetId": "3c4293f8-4daf-43ea-bd98-4038ef7ead0c",
-      "projectId": "mobile-volumetric-reconstruction",
-      "kind": "video",
-      "sourcePath": "indexeddb/mobile-volumetric-reconstruction/3c4293f8-4daf-43ea-bd98-4038ef7ead0c",
-      "objectKey": "v1/sha256/8f/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.mp4",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/8f/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.mp4",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8f/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.mp4",
-      "bytes": 3853773,
-      "sha256": "8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac",
-      "contentType": "video/mp4",
-      "contentDisposition": null,
-      "cacheControl": "public, max-age=31536000, immutable",
-      "references": [
-        {
-          "page": "项目详情/移动端体渲染与分帧重建.html",
-          "language": "zh-CN",
-          "locations": [
-            "video[data-src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8f/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.mp4"
-        },
-        {
-          "page": "项目详情/移动端体渲染与分帧重建_en.html",
-          "language": "en",
-          "locations": [
-            "video[data-src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8f/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.mp4"
-        }
-      ]
-    },
-    {
-      "logicalId": "project/mobile-volumetric-reconstruction/fe638d20-dfed-439e-9391-ee4872f10bcd",
-      "assetId": "fe638d20-dfed-439e-9391-ee4872f10bcd",
-      "projectId": "mobile-volumetric-reconstruction",
-      "kind": "video",
-      "sourcePath": "indexeddb/mobile-volumetric-reconstruction/fe638d20-dfed-439e-9391-ee4872f10bcd",
-      "objectKey": "v1/sha256/88/88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb.mp4",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/88/88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb.mp4",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/88/88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb.mp4",
-      "bytes": 7896985,
-      "sha256": "88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb",
-      "contentType": "video/mp4",
-      "contentDisposition": null,
-      "cacheControl": "public, max-age=31536000, immutable",
-      "references": [
-        {
-          "page": "项目详情/移动端体渲染与分帧重建.html",
-          "language": "zh-CN",
-          "locations": [
-            "video[data-src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/88/88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb.mp4"
-        },
-        {
-          "page": "项目详情/移动端体渲染与分帧重建_en.html",
-          "language": "en",
-          "locations": [
-            "video[data-src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/88/88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb.mp4"
-        }
-      ]
-    },
-    {
-      "logicalId": "project/mobile-volumetric-reconstruction/7510a870-e7f4-4abe-a086-6d2157d27d13",
-      "assetId": "7510a870-e7f4-4abe-a086-6d2157d27d13",
-      "projectId": "mobile-volumetric-reconstruction",
-      "kind": "video",
-      "sourcePath": "indexeddb/mobile-volumetric-reconstruction/7510a870-e7f4-4abe-a086-6d2157d27d13",
-      "objectKey": "v1/sha256/ba/baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed.mp4",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/ba/baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed.mp4",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/ba/baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed.mp4",
-      "bytes": 6594298,
-      "sha256": "baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed",
-      "contentType": "video/mp4",
-      "contentDisposition": null,
-      "cacheControl": "public, max-age=31536000, immutable",
-      "references": [
-        {
-          "page": "项目详情/移动端体渲染与分帧重建.html",
-          "language": "zh-CN",
-          "locations": [
-            "video[data-src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/ba/baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed.mp4"
-        },
-        {
-          "page": "项目详情/移动端体渲染与分帧重建_en.html",
-          "language": "en",
-          "locations": [
-            "video[data-src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/ba/baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed.mp4"
-        }
-      ]
-    },
-    {
-      "logicalId": "project/gpu-grass-vegetation/084425d7-e6d5-4e46-a1cb-21336d093f9a",
-      "assetId": "084425d7-e6d5-4e46-a1cb-21336d093f9a",
-      "projectId": "gpu-grass-vegetation",
-      "kind": "video",
-      "sourcePath": "indexeddb/gpu-grass-vegetation/084425d7-e6d5-4e46-a1cb-21336d093f9a",
+      "sourcePath": "indexeddb/frame-prediction/ff85d97c-9527-4416-b3f1-fd9f99109a57",
       "objectKey": "v1/sha256/9b/9bce26cfb6d75b619486217541c6e6ea132f0b06dc7ecb0472ff4bdb24575cda.mp4",
       "packagePath": "aliyun-oss-optimized/v1/sha256/9b/9bce26cfb6d75b619486217541c6e6ea132f0b06dc7ecb0472ff4bdb24575cda.mp4",
       "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/9b/9bce26cfb6d75b619486217541c6e6ea132f0b06dc7ecb0472ff4bdb24575cda.mp4",
@@ -4685,7 +4482,7 @@
       "cacheControl": "public, max-age=31536000, immutable",
       "references": [
         {
-          "page": "项目详情/GPU草海与大规模植被.html",
+          "page": "项目详情/帧预测.html",
           "language": "zh-CN",
           "locations": [
             "video[data-src]"
@@ -4693,7 +4490,7 @@
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/9b/9bce26cfb6d75b619486217541c6e6ea132f0b06dc7ecb0472ff4bdb24575cda.mp4"
         },
         {
-          "page": "项目详情/GPU草海与大规模植被_en.html",
+          "page": "项目详情/帧预测_en.html",
           "language": "en",
           "locations": [
             "video[data-src]"
@@ -4703,11 +4500,11 @@
       ]
     },
     {
-      "logicalId": "project/terrain-system-reproduction/479431a3-8ae8-4b89-ae41-795de212c5b2",
-      "assetId": "479431a3-8ae8-4b89-ae41-795de212c5b2",
-      "projectId": "terrain-system-reproduction",
+      "logicalId": "project/frame-prediction/6edcc143-34c4-4b05-893c-b7be0adab5f3",
+      "assetId": "6edcc143-34c4-4b05-893c-b7be0adab5f3",
+      "projectId": "frame-prediction",
       "kind": "video",
-      "sourcePath": "indexeddb/terrain-system-reproduction/479431a3-8ae8-4b89-ae41-795de212c5b2",
+      "sourcePath": "indexeddb/frame-prediction/6edcc143-34c4-4b05-893c-b7be0adab5f3",
       "objectKey": "v1/sha256/b9/b9ff26c95f2a5bdfafcb50a0d7e581bfcb4357354925ad1cbfc51694593f25f5.mp4",
       "packagePath": "aliyun-oss-optimized/v1/sha256/b9/b9ff26c95f2a5bdfafcb50a0d7e581bfcb4357354925ad1cbfc51694593f25f5.mp4",
       "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/b9/b9ff26c95f2a5bdfafcb50a0d7e581bfcb4357354925ad1cbfc51694593f25f5.mp4",
@@ -4718,7 +4515,7 @@
       "cacheControl": "public, max-age=31536000, immutable",
       "references": [
         {
-          "page": "项目详情/地形系统研究与工程复现.html",
+          "page": "项目详情/帧预测.html",
           "language": "zh-CN",
           "locations": [
             "video[data-src]"
@@ -4726,7 +4523,7 @@
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/b9/b9ff26c95f2a5bdfafcb50a0d7e581bfcb4357354925ad1cbfc51694593f25f5.mp4"
         },
         {
-          "page": "项目详情/地形系统研究与工程复现_en.html",
+          "page": "项目详情/帧预测_en.html",
           "language": "en",
           "locations": [
             "video[data-src]"
@@ -4736,11 +4533,143 @@
       ]
     },
     {
-      "logicalId": "project/character-rendering/8a057218-6768-4642-bec1-3ad78272bca9",
-      "assetId": "8a057218-6768-4642-bec1-3ad78272bca9",
-      "projectId": "character-rendering",
+      "logicalId": "project/frame-prediction/fdad2352-7d1e-4a8d-b317-5f09379c6c05",
+      "assetId": "fdad2352-7d1e-4a8d-b317-5f09379c6c05",
+      "projectId": "frame-prediction",
       "kind": "video",
-      "sourcePath": "indexeddb/character-rendering/8a057218-6768-4642-bec1-3ad78272bca9",
+      "sourcePath": "indexeddb/frame-prediction/fdad2352-7d1e-4a8d-b317-5f09379c6c05",
+      "objectKey": "v1/sha256/11/1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/11/1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/11/1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13.mp4",
+      "bytes": 25124954,
+      "sha256": "1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13",
+      "contentType": "video/mp4",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "references": [
+        {
+          "page": "项目详情/帧预测.html",
+          "language": "zh-CN",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/11/1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13.mp4"
+        },
+        {
+          "page": "项目详情/帧预测_en.html",
+          "language": "en",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/11/1123bc6e5ba9951150d43bd5ff664907571ad23f0a91d0f03e7b933eef1a1f13.mp4"
+        }
+      ]
+    },
+    {
+      "logicalId": "project/frame-prediction/8ca55154-ce6e-4df2-85d9-b5d4eb2ffd04",
+      "assetId": "8ca55154-ce6e-4df2-85d9-b5d4eb2ffd04",
+      "projectId": "frame-prediction",
+      "kind": "video",
+      "sourcePath": "indexeddb/frame-prediction/8ca55154-ce6e-4df2-85d9-b5d4eb2ffd04",
+      "objectKey": "v1/sha256/8f/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/8f/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8f/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.mp4",
+      "bytes": 3853773,
+      "sha256": "8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac",
+      "contentType": "video/mp4",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "references": [
+        {
+          "page": "项目详情/帧预测.html",
+          "language": "zh-CN",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8f/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.mp4"
+        },
+        {
+          "page": "项目详情/帧预测_en.html",
+          "language": "en",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8f/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.mp4"
+        }
+      ]
+    },
+    {
+      "logicalId": "project/frame-prediction/f48a734d-780e-4bef-bc16-85f9ea1f2fe0",
+      "assetId": "f48a734d-780e-4bef-bc16-85f9ea1f2fe0",
+      "projectId": "frame-prediction",
+      "kind": "video",
+      "sourcePath": "indexeddb/frame-prediction/f48a734d-780e-4bef-bc16-85f9ea1f2fe0",
+      "objectKey": "v1/sha256/88/88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/88/88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/88/88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb.mp4",
+      "bytes": 7896985,
+      "sha256": "88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb",
+      "contentType": "video/mp4",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "references": [
+        {
+          "page": "项目详情/帧预测.html",
+          "language": "zh-CN",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/88/88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb.mp4"
+        },
+        {
+          "page": "项目详情/帧预测_en.html",
+          "language": "en",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/88/88b6f0ec4e4bc6176950a01d5d728fe80201e2ba2420887ff52fe555f0d439cb.mp4"
+        }
+      ]
+    },
+    {
+      "logicalId": "project/frame-prediction/033aa081-844d-4035-9273-f5176017c0f2",
+      "assetId": "033aa081-844d-4035-9273-f5176017c0f2",
+      "projectId": "frame-prediction",
+      "kind": "video",
+      "sourcePath": "indexeddb/frame-prediction/033aa081-844d-4035-9273-f5176017c0f2",
+      "objectKey": "v1/sha256/ba/baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/ba/baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/ba/baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed.mp4",
+      "bytes": 6594298,
+      "sha256": "baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed",
+      "contentType": "video/mp4",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "references": [
+        {
+          "page": "项目详情/帧预测.html",
+          "language": "zh-CN",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/ba/baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed.mp4"
+        },
+        {
+          "page": "项目详情/帧预测_en.html",
+          "language": "en",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/ba/baa5d31d585b9ba2ae0ac09da5ea659ba5a6ab9e6f3138c5c0094f50a3be3bed.mp4"
+        }
+      ]
+    },
+    {
+      "logicalId": "project/frame-prediction/6202a45d-9e47-4e70-b487-fdfa88f48443",
+      "assetId": "6202a45d-9e47-4e70-b487-fdfa88f48443",
+      "projectId": "frame-prediction",
+      "kind": "video",
+      "sourcePath": "indexeddb/frame-prediction/6202a45d-9e47-4e70-b487-fdfa88f48443",
       "objectKey": "v1/sha256/38/38deff62d89f26fdc421b4b79c4717a55634fc137e04df3d4db82495855fa999.mp4",
       "packagePath": "aliyun-oss-optimized/v1/sha256/38/38deff62d89f26fdc421b4b79c4717a55634fc137e04df3d4db82495855fa999.mp4",
       "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/38/38deff62d89f26fdc421b4b79c4717a55634fc137e04df3d4db82495855fa999.mp4",
@@ -4751,7 +4680,7 @@
       "cacheControl": "public, max-age=31536000, immutable",
       "references": [
         {
-          "page": "项目详情/角色渲染.html",
+          "page": "项目详情/帧预测.html",
           "language": "zh-CN",
           "locations": [
             "video[data-src]"
@@ -4759,7 +4688,7 @@
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/38/38deff62d89f26fdc421b4b79c4717a55634fc137e04df3d4db82495855fa999.mp4"
         },
         {
-          "page": "项目详情/角色渲染_en.html",
+          "page": "项目详情/帧预测_en.html",
           "language": "en",
           "locations": [
             "video[data-src]"
@@ -4769,11 +4698,11 @@
       ]
     },
     {
-      "logicalId": "project/character-rendering/76d2f024-390c-465c-86ad-5617781dcf4c",
-      "assetId": "76d2f024-390c-465c-86ad-5617781dcf4c",
-      "projectId": "character-rendering",
+      "logicalId": "project/frame-prediction/58cf9286-0aa5-4a09-baea-b3579718c3cf",
+      "assetId": "58cf9286-0aa5-4a09-baea-b3579718c3cf",
+      "projectId": "frame-prediction",
       "kind": "video",
-      "sourcePath": "indexeddb/character-rendering/76d2f024-390c-465c-86ad-5617781dcf4c",
+      "sourcePath": "indexeddb/frame-prediction/58cf9286-0aa5-4a09-baea-b3579718c3cf",
       "objectKey": "v1/sha256/19/195f1ae64149aa6283b3950629342f985bad4e64b5fe642478146724173ef7fe.mp4",
       "packagePath": "aliyun-oss-optimized/v1/sha256/19/195f1ae64149aa6283b3950629342f985bad4e64b5fe642478146724173ef7fe.mp4",
       "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/19/195f1ae64149aa6283b3950629342f985bad4e64b5fe642478146724173ef7fe.mp4",
@@ -4784,7 +4713,7 @@
       "cacheControl": "public, max-age=31536000, immutable",
       "references": [
         {
-          "page": "项目详情/角色渲染.html",
+          "page": "项目详情/帧预测.html",
           "language": "zh-CN",
           "locations": [
             "video[data-src]"
@@ -4792,12 +4721,47 @@
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/19/195f1ae64149aa6283b3950629342f985bad4e64b5fe642478146724173ef7fe.mp4"
         },
         {
-          "page": "项目详情/角色渲染_en.html",
+          "page": "项目详情/帧预测_en.html",
           "language": "en",
           "locations": [
             "video[data-src]"
           ],
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/19/195f1ae64149aa6283b3950629342f985bad4e64b5fe642478146724173ef7fe.mp4"
+        }
+      ]
+    },
+    {
+      "logicalId": "project/frame-prediction/b6f56075-39b1-48e5-ae7c-2669cf45bbd3",
+      "assetId": "b6f56075-39b1-48e5-ae7c-2669cf45bbd3",
+      "projectId": "frame-prediction",
+      "kind": "image",
+      "sourcePath": "indexeddb/frame-prediction/b6f56075-39b1-48e5-ae7c-2669cf45bbd3",
+      "objectKey": "v1/sha256/4e/4e1c7322bcf936e57f4b99efcf1dbdacdb092b19158eb6873f64d1e90fbaa537.png",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/4e/4e1c7322bcf936e57f4b99efcf1dbdacdb092b19158eb6873f64d1e90fbaa537.png",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/4e/4e1c7322bcf936e57f4b99efcf1dbdacdb092b19158eb6873f64d1e90fbaa537.png",
+      "bytes": 1920907,
+      "sha256": "4e1c7322bcf936e57f4b99efcf1dbdacdb092b19158eb6873f64d1e90fbaa537",
+      "contentType": "image/png",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "references": [
+        {
+          "page": "项目详情/帧预测.html",
+          "language": "zh-CN",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/4e/4e1c7322bcf936e57f4b99efcf1dbdacdb092b19158eb6873f64d1e90fbaa537.png"
+        },
+        {
+          "page": "项目详情/帧预测_en.html",
+          "language": "en",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/4e/4e1c7322bcf936e57f4b99efcf1dbdacdb092b19158eb6873f64d1e90fbaa537.png"
         }
       ]
     },
