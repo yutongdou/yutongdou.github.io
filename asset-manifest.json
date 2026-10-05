@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishId": "20261005-233645-b5997182",
-  "generatedAt": "2026-10-05T15:36:45.865Z",
+  "publishId": "20261006-002506-b5997182",
+  "generatedAt": "2026-10-05T16:25:06.719Z",
   "mode": "aliyun",
   "layout": {
     "githubPagesRoot": "github-pages/",
@@ -94,25 +94,60 @@
     }
   ],
   "siteFiles": [
-    "index.html",
+    ".nojekyll",
+    "asset-manifest.json",
+    "assets/video-posters/v1/08e04767167f1a88bff542e71f76401859e61bcaaa88b181b6dbe058aade9e2b.webp",
+    "assets/video-posters/v1/0b47fe76849d888d27c2956f2985b24c145a15b871f4b7db32bbf0136f3dcca8.webp",
+    "assets/video-posters/v1/100d4ad69a494cf4b69a54b625743b5ee1cf6dea57f45e7f0cfc48015de73022.webp",
+    "assets/video-posters/v1/132406afd68cb6500931671e1eaa59e73cadd4c5a256db44f6e303c0c2f1f67a.webp",
+    "assets/video-posters/v1/195f1ae64149aa6283b3950629342f985bad4e64b5fe642478146724173ef7fe.webp",
+    "assets/video-posters/v1/1dad02c28eeab1bac0aba6901e76dec45a162ef1f3ec7f0c4a19c067c1c2909f.webp",
+    "assets/video-posters/v1/2a50eb2f69d084bf7d31c5e31cd84a4033616b11cfbc120055d1de20e0e2b4e2.webp",
+    "assets/video-posters/v1/3e1c187c54b63fd6842723b9ab0f23c5f60b0ba276967d9742e2f06e27812d3f.webp",
+    "assets/video-posters/v1/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.webp",
+    "assets/video-posters/v1/4d5650ee94b3e710efddc52cbe58d68e784345cfafc082e5b5090455ef81f4f0.webp",
+    "assets/video-posters/v1/61f89813a0b974d6bb2fc9c91744a105148f2dcc807ebda675d3d17f8807bfff.webp",
+    "assets/video-posters/v1/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.webp",
+    "assets/video-posters/v1/6a27a77618763a88998edc91772a0362638881c394c27a67fa53d255fad044ba.webp",
+    "assets/video-posters/v1/6a6c0a0c48181e7b7346f919227be4b909caf8d7095f57433dc0fb02f8141215.webp",
+    "assets/video-posters/v1/719c31d8a09618f6e9bf2daef3ecefb03dbc5d899d2ad73de06735b710cb04c0.webp",
+    "assets/video-posters/v1/769d3b5c311b7a17bf5b2d4ec3a1516ef1c0a8fb4ef7e347e3984dbceecc4cbc.webp",
+    "assets/video-posters/v1/870d87358c8c8d8316b6b5d22ad5b340fbe8469a1ec438da5a8420754fab1a3c.webp",
+    "assets/video-posters/v1/8dfabbddd02c4ed7cb45fd622ac8f71f33e0f0e87d5d961ebcddb77b1be84769.webp",
+    "assets/video-posters/v1/8eff97dde5c4fff47a5030affda4e94d7e8cf3d573fae8fcab1ce7bfa83e8e73.webp",
+    "assets/video-posters/v1/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.webp",
+    "assets/video-posters/v1/968d96c147a6d788e48683ed9fe366cb01d75ee44ff3baaf3da6819d7393599e.webp",
+    "assets/video-posters/v1/974dcec00c69961624a9fbc2b0686dffff135333726730482fb4c08925153acf.webp",
+    "assets/video-posters/v1/9e60e9056c7f1ac0dd0ae61e7eb8aad4da7a1ff05fd87b5efacd2b7919ab95e0.webp",
+    "assets/video-posters/v1/a4fbb792dcd662fcd273b23ad56620a5156a82119b22666644c89681eea1afe0.webp",
+    "assets/video-posters/v1/a8531077883628962b122a00eb7c6b8023c16f4dde3813ecb338a84367962d38.webp",
+    "assets/video-posters/v1/a92fa7fc4791ff5144eaf7fe01047a535934f36d8dea16e8864e2547ff8931f8.webp",
+    "assets/video-posters/v1/c785b6e51386e6181b8064321776301f8d1359687b6b7d5eadac8f24a1d87567.webp",
+    "assets/video-posters/v1/d57a7da15c78c1191e8b421c1039fa831d4e051ce4ad506e71b3dde32df20700.webp",
+    "assets/video-posters/v1/dad35de8d859c69183e713d149dbc7283da765d1a4f0d9db1fc69d3b02703f39.webp",
+    "assets/video-posters/v1/dfa8a01a6232bc0b8b3174a8eb124b12fe290c1082c4fa90de965d1a2f9bd400.webp",
+    "assets/video-posters/v1/ea3b3b76e3e2606984ee0357254ec80e7fffa2027395283a781c1c40a08db8de.webp",
+    "assets/video-posters/v1/ef2815a4f57f86e354424ac208e53d7a43818f40ce78fd24d818caae4648971c.webp",
+    "assets/video-posters/v1/f8725514a450337315b72d6fcecb7c4fd725a0c1a3ff4a819e6abf3a5ae4a9e9.webp",
+    "assets/video-posters/v1/fa844ef775cbff8edbb9272c8d33ac30de9075e16a14ff2add2b1861a35d93d6.webp",
+    "assets/video-posters/v1/fefc7822d2f8813e2355c9ee7ac470f23e489cb4c1525cb08e1dc5237c7b1f00.webp",
     "index-en.html",
     "index-zh.html",
-    ".nojekyll",
-    "项目详情/project-detail.css",
-    "项目详情/project-detail-viewer.js",
-    "项目详情/T1_3dsMax工具包.html",
-    "项目详情/T1_3dsMax工具包_en.html",
-    "项目详情/规范、逆向与性能优化.html",
-    "项目详情/规范、逆向与性能优化_en.html",
-    "项目详情/帧预测.html",
-    "项目详情/帧预测_en.html",
-    "项目详情/其他效果.html",
-    "项目详情/其他效果_en.html",
+    "index.html",
     "项目详情/AI工作流研究.html",
     "项目详情/AI工作流研究_en.html",
+    "项目详情/T1_3dsMax工具包.html",
+    "项目详情/T1_3dsMax工具包_en.html",
+    "项目详情/project-detail-viewer.js",
+    "项目详情/project-detail.css",
     "项目详情/个人作品与兴趣.html",
     "项目详情/个人作品与兴趣_en.html",
-    "asset-manifest.json"
+    "项目详情/其他效果.html",
+    "项目详情/其他效果_en.html",
+    "项目详情/帧预测.html",
+    "项目详情/帧预测_en.html",
+    "项目详情/规范、逆向与性能优化.html",
+    "项目详情/规范、逆向与性能优化_en.html"
   ],
   "compatibilityWarnings": [
     {
@@ -6945,6 +6980,253 @@
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/7e/7ebbdd3cdb84efb7a079415043ef53e145bafa812082388ceb85aae8ea8364e4.png"
         }
       ]
+    }
+  ],
+  "videoPosters": [
+    {
+      "videoObjectKey": "v1/sha256/fe/fefc7822d2f8813e2355c9ee7ac470f23e489cb4c1525cb08e1dc5237c7b1f00.mp4",
+      "path": "assets/video-posters/v1/fefc7822d2f8813e2355c9ee7ac470f23e489cb4c1525cb08e1dc5237c7b1f00.webp",
+      "bytes": 7020,
+      "sha256": "3e27bfe697380b9ec7eafae2059aba8945ce2618a533d8e4109c979ced6fad35",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/fa/fa844ef775cbff8edbb9272c8d33ac30de9075e16a14ff2add2b1861a35d93d6.mp4",
+      "path": "assets/video-posters/v1/fa844ef775cbff8edbb9272c8d33ac30de9075e16a14ff2add2b1861a35d93d6.webp",
+      "bytes": 7980,
+      "sha256": "4044883feae7b403287ceefde089e02fbd367212fb285f61a653ad06c4177008",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/f8/f8725514a450337315b72d6fcecb7c4fd725a0c1a3ff4a819e6abf3a5ae4a9e9.mp4",
+      "path": "assets/video-posters/v1/f8725514a450337315b72d6fcecb7c4fd725a0c1a3ff4a819e6abf3a5ae4a9e9.webp",
+      "bytes": 11558,
+      "sha256": "90f5b3891e8cb8cb4bc138c9fbc33286b7d245049be802f5214b6b05cdac3e4a",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/ef/ef2815a4f57f86e354424ac208e53d7a43818f40ce78fd24d818caae4648971c.mp4",
+      "path": "assets/video-posters/v1/ef2815a4f57f86e354424ac208e53d7a43818f40ce78fd24d818caae4648971c.webp",
+      "bytes": 12722,
+      "sha256": "7c0f96550fa843e8d59bc24e408d615e1e29071a1bcc7795fece7c60412d6315",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/97/974dcec00c69961624a9fbc2b0686dffff135333726730482fb4c08925153acf.mp4",
+      "path": "assets/video-posters/v1/974dcec00c69961624a9fbc2b0686dffff135333726730482fb4c08925153acf.webp",
+      "bytes": 12158,
+      "sha256": "8b20e750086bb39ef5576508658920756c0da5df54245a006cfcb41629a60f9e",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/71/719c31d8a09618f6e9bf2daef3ecefb03dbc5d899d2ad73de06735b710cb04c0.mp4",
+      "path": "assets/video-posters/v1/719c31d8a09618f6e9bf2daef3ecefb03dbc5d899d2ad73de06735b710cb04c0.webp",
+      "bytes": 28306,
+      "sha256": "466ae6c0e7cb7698fafd779cc56dc65c65c3ad8f31abbed6bba527af73008b31",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/10/100d4ad69a494cf4b69a54b625743b5ee1cf6dea57f45e7f0cfc48015de73022.mp4",
+      "path": "assets/video-posters/v1/100d4ad69a494cf4b69a54b625743b5ee1cf6dea57f45e7f0cfc48015de73022.webp",
+      "bytes": 8010,
+      "sha256": "34da8ed8addd9dd1139213d2cfa33635382a0381d44295c011a8cf3dbcf2464d",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/76/769d3b5c311b7a17bf5b2d4ec3a1516ef1c0a8fb4ef7e347e3984dbceecc4cbc.mp4",
+      "path": "assets/video-posters/v1/769d3b5c311b7a17bf5b2d4ec3a1516ef1c0a8fb4ef7e347e3984dbceecc4cbc.webp",
+      "bytes": 10078,
+      "sha256": "8a0b0200ff33525b31ccd0f2b7b9b3c89b735c369e0e2896225d7af4df4ab2ca",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/2a/2a50eb2f69d084bf7d31c5e31cd84a4033616b11cfbc120055d1de20e0e2b4e2.mp4",
+      "path": "assets/video-posters/v1/2a50eb2f69d084bf7d31c5e31cd84a4033616b11cfbc120055d1de20e0e2b4e2.webp",
+      "bytes": 11494,
+      "sha256": "1ebdd738e3621264b7504905135a960f0f5c2022c546e1e5d5109ee3c16aa2ee",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/8e/8eff97dde5c4fff47a5030affda4e94d7e8cf3d573fae8fcab1ce7bfa83e8e73.mp4",
+      "path": "assets/video-posters/v1/8eff97dde5c4fff47a5030affda4e94d7e8cf3d573fae8fcab1ce7bfa83e8e73.webp",
+      "bytes": 1616,
+      "sha256": "95c6c06f44b0afda869da262f3e3370a9fe2736e647e67a752a9f01a46921e9b",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/1d/1dad02c28eeab1bac0aba6901e76dec45a162ef1f3ec7f0c4a19c067c1c2909f.mp4",
+      "path": "assets/video-posters/v1/1dad02c28eeab1bac0aba6901e76dec45a162ef1f3ec7f0c4a19c067c1c2909f.webp",
+      "bytes": 12662,
+      "sha256": "225a3a61dfd7be402c2a6c0d3487bf256fdaa8cebbed9c7af6e43e457d666096",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/08/08e04767167f1a88bff542e71f76401859e61bcaaa88b181b6dbe058aade9e2b.mp4",
+      "path": "assets/video-posters/v1/08e04767167f1a88bff542e71f76401859e61bcaaa88b181b6dbe058aade9e2b.webp",
+      "bytes": 14844,
+      "sha256": "9632093a6d0761268830a30e8198de6c9ed1d7090503e6612749f4a691bf506a",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/8f/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.mp4",
+      "path": "assets/video-posters/v1/8fc69d9e2d01c90b856164ef5d4065eaee172574eb8cbcff40f2e5ae12ba9aac.webp",
+      "bytes": 7054,
+      "sha256": "3f46e3f25d1ea2533abc347f3fdd967ea233f9ca3cd21eb68316d23c7651e1f8",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/19/195f1ae64149aa6283b3950629342f985bad4e64b5fe642478146724173ef7fe.mp4",
+      "path": "assets/video-posters/v1/195f1ae64149aa6283b3950629342f985bad4e64b5fe642478146724173ef7fe.webp",
+      "bytes": 6664,
+      "sha256": "dc261d9fede761b43d5277789f3d857d79e7b8783173112f0184b0280e4de4eb",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/a9/a92fa7fc4791ff5144eaf7fe01047a535934f36d8dea16e8864e2547ff8931f8.mp4",
+      "path": "assets/video-posters/v1/a92fa7fc4791ff5144eaf7fe01047a535934f36d8dea16e8864e2547ff8931f8.webp",
+      "bytes": 11972,
+      "sha256": "febcd72392d27f3714687379b272c71599ae95fc49164e468b9a789bc309eeef",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/c7/c785b6e51386e6181b8064321776301f8d1359687b6b7d5eadac8f24a1d87567.mp4",
+      "path": "assets/video-posters/v1/c785b6e51386e6181b8064321776301f8d1359687b6b7d5eadac8f24a1d87567.webp",
+      "bytes": 7162,
+      "sha256": "cabd8a009ce1ff4abf2cb4729360390bed26926b8344ae95e0520a8cef821224",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/a4/a4fbb792dcd662fcd273b23ad56620a5156a82119b22666644c89681eea1afe0.mp4",
+      "path": "assets/video-posters/v1/a4fbb792dcd662fcd273b23ad56620a5156a82119b22666644c89681eea1afe0.webp",
+      "bytes": 8090,
+      "sha256": "fb99ccfbf8d1e240ba3798d918bcec87859853dea3ca672603cdf2e1a1e5403b",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/6a/6a27a77618763a88998edc91772a0362638881c394c27a67fa53d255fad044ba.mp4",
+      "path": "assets/video-posters/v1/6a27a77618763a88998edc91772a0362638881c394c27a67fa53d255fad044ba.webp",
+      "bytes": 9060,
+      "sha256": "a571a99e922418f77a14f13f2232ea88f923b6818ceb6edb4e45d10816a3ac63",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/13/132406afd68cb6500931671e1eaa59e73cadd4c5a256db44f6e303c0c2f1f67a.mp4",
+      "path": "assets/video-posters/v1/132406afd68cb6500931671e1eaa59e73cadd4c5a256db44f6e303c0c2f1f67a.webp",
+      "bytes": 8636,
+      "sha256": "3b69e845cb4c7cffbb58ad34083ab9ea5d4363492be09c2bc132adf05951a15a",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/6a/6a6c0a0c48181e7b7346f919227be4b909caf8d7095f57433dc0fb02f8141215.mp4",
+      "path": "assets/video-posters/v1/6a6c0a0c48181e7b7346f919227be4b909caf8d7095f57433dc0fb02f8141215.webp",
+      "bytes": 7686,
+      "sha256": "49f676edecb56ec2ebb583e63f3804e7921139f2ed27a18957507432852b445b",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/8d/8dfabbddd02c4ed7cb45fd622ac8f71f33e0f0e87d5d961ebcddb77b1be84769.mp4",
+      "path": "assets/video-posters/v1/8dfabbddd02c4ed7cb45fd622ac8f71f33e0f0e87d5d961ebcddb77b1be84769.webp",
+      "bytes": 20232,
+      "sha256": "091bc85b0b097ca7a7eeb5d4cc20310becc504c93bf1176196691cc1bd6f7f51",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/a8/a8531077883628962b122a00eb7c6b8023c16f4dde3813ecb338a84367962d38.mp4",
+      "path": "assets/video-posters/v1/a8531077883628962b122a00eb7c6b8023c16f4dde3813ecb338a84367962d38.webp",
+      "bytes": 9982,
+      "sha256": "5b04a88223bf3626d36373cfe512969ec6457d7a527291341a39f1aff3692cda",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/4d/4d5650ee94b3e710efddc52cbe58d68e784345cfafc082e5b5090455ef81f4f0.mp4",
+      "path": "assets/video-posters/v1/4d5650ee94b3e710efddc52cbe58d68e784345cfafc082e5b5090455ef81f4f0.webp",
+      "bytes": 31118,
+      "sha256": "2ab8e3113245c5acce9893ae693d8b3761178ed1457f2df418b46c0dcbae5a8e",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/df/dfa8a01a6232bc0b8b3174a8eb124b12fe290c1082c4fa90de965d1a2f9bd400.mp4",
+      "path": "assets/video-posters/v1/dfa8a01a6232bc0b8b3174a8eb124b12fe290c1082c4fa90de965d1a2f9bd400.webp",
+      "bytes": 13274,
+      "sha256": "16e310c30d51ae02aa415b5a9b6c783315fe41c3f8be741785738264141baae7",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4",
+      "path": "assets/video-posters/v1/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.webp",
+      "bytes": 26148,
+      "sha256": "d8bd8558bc9e45b2ef0c0cc7053ab7f42e97f279e6f06e72ffa5a471a09c139b",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/3e/3e1c187c54b63fd6842723b9ab0f23c5f60b0ba276967d9742e2f06e27812d3f.mp4",
+      "path": "assets/video-posters/v1/3e1c187c54b63fd6842723b9ab0f23c5f60b0ba276967d9742e2f06e27812d3f.webp",
+      "bytes": 8966,
+      "sha256": "ac231f7607a3185a9bf039e8a6d96e0455b0a2ee97dc7402c03dca97857cf709",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4",
+      "path": "assets/video-posters/v1/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.webp",
+      "bytes": 4040,
+      "sha256": "591382b23cfc1ac4d1941c64b37634613d88eef851101709fe9daa16cff554ec",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/0b/0b47fe76849d888d27c2956f2985b24c145a15b871f4b7db32bbf0136f3dcca8.mp4",
+      "path": "assets/video-posters/v1/0b47fe76849d888d27c2956f2985b24c145a15b871f4b7db32bbf0136f3dcca8.webp",
+      "bytes": 11492,
+      "sha256": "2ca3bcf9432a14caed2568da04924791ae5ae460eb2c6d66a0090a0719d2be01",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/ea/ea3b3b76e3e2606984ee0357254ec80e7fffa2027395283a781c1c40a08db8de.mp4",
+      "path": "assets/video-posters/v1/ea3b3b76e3e2606984ee0357254ec80e7fffa2027395283a781c1c40a08db8de.webp",
+      "bytes": 18946,
+      "sha256": "3d06583b77d7e51c6dc5eceb8e086ca06355973705891a36c1a8b752354745a7",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/da/dad35de8d859c69183e713d149dbc7283da765d1a4f0d9db1fc69d3b02703f39.mp4",
+      "path": "assets/video-posters/v1/dad35de8d859c69183e713d149dbc7283da765d1a4f0d9db1fc69d3b02703f39.webp",
+      "bytes": 30878,
+      "sha256": "305f5488c4eaff618c51907bbb9375913e1191afcbd55ac8135ce24ec3177043",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/61/61f89813a0b974d6bb2fc9c91744a105148f2dcc807ebda675d3d17f8807bfff.mp4",
+      "path": "assets/video-posters/v1/61f89813a0b974d6bb2fc9c91744a105148f2dcc807ebda675d3d17f8807bfff.webp",
+      "bytes": 10762,
+      "sha256": "80b78b9b2bbd1459934d43e3a787aeb2940a6ac36181200996c570a413c79721",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/9e/9e60e9056c7f1ac0dd0ae61e7eb8aad4da7a1ff05fd87b5efacd2b7919ab95e0.mp4",
+      "path": "assets/video-posters/v1/9e60e9056c7f1ac0dd0ae61e7eb8aad4da7a1ff05fd87b5efacd2b7919ab95e0.webp",
+      "bytes": 7410,
+      "sha256": "59bfa119dd9aa37e43875389cb1f893d8fbe29f16e61b9de4760e44347030be2",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/96/968d96c147a6d788e48683ed9fe366cb01d75ee44ff3baaf3da6819d7393599e.mp4",
+      "path": "assets/video-posters/v1/968d96c147a6d788e48683ed9fe366cb01d75ee44ff3baaf3da6819d7393599e.webp",
+      "bytes": 10548,
+      "sha256": "7ab03ea718f44d54c3c03b82b57c372cd6f59c18dd6ee41eff231b80ac00f5d1",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/87/870d87358c8c8d8316b6b5d22ad5b340fbe8469a1ec438da5a8420754fab1a3c.mp4",
+      "path": "assets/video-posters/v1/870d87358c8c8d8316b6b5d22ad5b340fbe8469a1ec438da5a8420754fab1a3c.webp",
+      "bytes": 7616,
+      "sha256": "90b9e89678ed9683da8961f1fae60ade57f96ace82f2bdaf9fd11bb654078d11",
+      "contentType": "image/webp"
+    },
+    {
+      "videoObjectKey": "v1/sha256/d5/d57a7da15c78c1191e8b421c1039fa831d4e051ce4ad506e71b3dde32df20700.mp4",
+      "path": "assets/video-posters/v1/d57a7da15c78c1191e8b421c1039fa831d4e051ce4ad506e71b3dde32df20700.webp",
+      "bytes": 2460,
+      "sha256": "c27d3fa34a52eaa3c62de1602a57a3347afcf2dbf32542e141c7b2ba381b259a",
+      "contentType": "image/webp"
     }
   ]
 }
