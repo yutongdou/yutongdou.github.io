@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "publishId": "20260909-215840-b5997182",
-  "generatedAt": "2026-09-09T13:58:40.317Z",
+  "publishId": "20261005-233645-b5997182",
+  "generatedAt": "2026-10-05T15:36:45.865Z",
   "mode": "aliyun",
   "layout": {
     "githubPagesRoot": "github-pages/",
@@ -38,10 +38,10 @@
   },
   "totals": {
     "projects": 6,
-    "assets": 87,
-    "uniqueObjects": 87,
-    "sourceBytes": 524719450,
-    "uploadBytes": 524719450
+    "assets": 94,
+    "uniqueObjects": 94,
+    "sourceBytes": 587395943,
+    "uploadBytes": 587395943
   },
   "activeProjects": [
     {
@@ -188,11 +188,7 @@
       "message": "容器格式可发布，但浏览器支持仍取决于视频/音频编码；MP4 推荐 H.264 + AAC，并需在 Chrome、Safari 与移动端实测。"
     },
     {
-      "objectKey": "v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4",
-      "message": "容器格式可发布，但浏览器支持仍取决于视频/音频编码；MP4 推荐 H.264 + AAC，并需在 Chrome、Safari 与移动端实测。"
-    },
-    {
-      "objectKey": "v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4",
+      "objectKey": "v1/sha256/13/132406afd68cb6500931671e1eaa59e73cadd4c5a256db44f6e303c0c2f1f67a.mp4",
       "message": "容器格式可发布，但浏览器支持仍取决于视频/音频编码；MP4 推荐 H.264 + AAC，并需在 Chrome、Safari 与移动端实测。"
     },
     {
@@ -200,7 +196,31 @@
       "message": "容器格式可发布，但浏览器支持仍取决于视频/音频编码；MP4 推荐 H.264 + AAC，并需在 Chrome、Safari 与移动端实测。"
     },
     {
+      "objectKey": "v1/sha256/8d/8dfabbddd02c4ed7cb45fd622ac8f71f33e0f0e87d5d961ebcddb77b1be84769.mp4",
+      "message": "容器格式可发布，但浏览器支持仍取决于视频/音频编码；MP4 推荐 H.264 + AAC，并需在 Chrome、Safari 与移动端实测。"
+    },
+    {
+      "objectKey": "v1/sha256/a8/a8531077883628962b122a00eb7c6b8023c16f4dde3813ecb338a84367962d38.mp4",
+      "message": "容器格式可发布，但浏览器支持仍取决于视频/音频编码；MP4 推荐 H.264 + AAC，并需在 Chrome、Safari 与移动端实测。"
+    },
+    {
+      "objectKey": "v1/sha256/4d/4d5650ee94b3e710efddc52cbe58d68e784345cfafc082e5b5090455ef81f4f0.mp4",
+      "message": "容器格式可发布，但浏览器支持仍取决于视频/音频编码；MP4 推荐 H.264 + AAC，并需在 Chrome、Safari 与移动端实测。"
+    },
+    {
+      "objectKey": "v1/sha256/df/dfa8a01a6232bc0b8b3174a8eb124b12fe290c1082c4fa90de965d1a2f9bd400.mp4",
+      "message": "容器格式可发布，但浏览器支持仍取决于视频/音频编码；MP4 推荐 H.264 + AAC，并需在 Chrome、Safari 与移动端实测。"
+    },
+    {
+      "objectKey": "v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4",
+      "message": "容器格式可发布，但浏览器支持仍取决于视频/音频编码；MP4 推荐 H.264 + AAC，并需在 Chrome、Safari 与移动端实测。"
+    },
+    {
       "objectKey": "v1/sha256/3e/3e1c187c54b63fd6842723b9ab0f23c5f60b0ba276967d9742e2f06e27812d3f.mp4",
+      "message": "容器格式可发布，但浏览器支持仍取决于视频/音频编码；MP4 推荐 H.264 + AAC，并需在 Chrome、Safari 与移动端实测。"
+    },
+    {
+      "objectKey": "v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4",
       "message": "容器格式可发布，但浏览器支持仍取决于视频/音频编码；MP4 推荐 H.264 + AAC，并需在 Chrome、Safari 与移动端实测。"
     },
     {
@@ -388,11 +408,11 @@
       ]
     },
     {
-      "objectKey": "v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp",
-      "sha256": "1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030",
-      "bytes": 208834,
+      "objectKey": "v1/sha256/5b/5bf9f0776a4e17574f2794fcf50b4d2e0fc4fd064ea8e35f80948defdd3951a6.webp",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/5b/5bf9f0776a4e17574f2794fcf50b4d2e0fc4fd064ea8e35f80948defdd3951a6.webp",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/5b/5bf9f0776a4e17574f2794fcf50b4d2e0fc4fd064ea8e35f80948defdd3951a6.webp",
+      "sha256": "5bf9f0776a4e17574f2794fcf50b4d2e0fc4fd064ea8e35f80948defdd3951a6",
+      "bytes": 337110,
       "contentType": "image/webp",
       "contentDisposition": null,
       "cacheControl": "public, max-age=31536000, immutable",
@@ -407,7 +427,7 @@
           "locations": [
             "style url()"
           ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp"
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/5b/5bf9f0776a4e17574f2794fcf50b4d2e0fc4fd064ea8e35f80948defdd3951a6.webp"
         },
         {
           "logicalId": "shared/site-background",
@@ -416,7 +436,7 @@
           "locations": [
             "style url()"
           ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp"
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/5b/5bf9f0776a4e17574f2794fcf50b4d2e0fc4fd064ea8e35f80948defdd3951a6.webp"
         },
         {
           "logicalId": "shared/site-background",
@@ -425,7 +445,7 @@
           "locations": [
             "style url()"
           ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp"
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/5b/5bf9f0776a4e17574f2794fcf50b4d2e0fc4fd064ea8e35f80948defdd3951a6.webp"
         },
         {
           "logicalId": "shared/site-background",
@@ -434,7 +454,7 @@
           "locations": [
             "css url()"
           ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp"
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/5b/5bf9f0776a4e17574f2794fcf50b4d2e0fc4fd064ea8e35f80948defdd3951a6.webp"
         }
       ]
     },
@@ -1873,103 +1893,35 @@
       ]
     },
     {
-      "objectKey": "v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4",
-      "sha256": "3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47",
-      "bytes": 12905678,
+      "objectKey": "v1/sha256/13/132406afd68cb6500931671e1eaa59e73cadd4c5a256db44f6e303c0c2f1f67a.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/13/132406afd68cb6500931671e1eaa59e73cadd4c5a256db44f6e303c0c2f1f67a.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/13/132406afd68cb6500931671e1eaa59e73cadd4c5a256db44f6e303c0c2f1f67a.mp4",
+      "sha256": "132406afd68cb6500931671e1eaa59e73cadd4c5a256db44f6e303c0c2f1f67a",
+      "bytes": 18658720,
       "contentType": "video/mp4",
       "contentDisposition": null,
       "cacheControl": "public, max-age=31536000, immutable",
       "logicalIds": [
-        "project/misc-effects/99363e0c-9f08-4301-b3ff-74c4e95e18ab"
+        "project/misc-effects/1315e937-c340-4d8e-bffa-aca4c7268496"
       ],
       "references": [
         {
-          "logicalId": "project/misc-effects/99363e0c-9f08-4301-b3ff-74c4e95e18ab",
+          "logicalId": "project/misc-effects/1315e937-c340-4d8e-bffa-aca4c7268496",
           "page": "项目详情/其他效果.html",
           "language": "zh-CN",
           "locations": [
             "video[data-src]"
           ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4"
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/13/132406afd68cb6500931671e1eaa59e73cadd4c5a256db44f6e303c0c2f1f67a.mp4"
         },
         {
-          "logicalId": "project/misc-effects/99363e0c-9f08-4301-b3ff-74c4e95e18ab",
+          "logicalId": "project/misc-effects/1315e937-c340-4d8e-bffa-aca4c7268496",
           "page": "项目详情/其他效果_en.html",
           "language": "en",
           "locations": [
             "video[data-src]"
           ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4"
-        }
-      ]
-    },
-    {
-      "objectKey": "v1/sha256/d5/d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877.gif",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/d5/d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877.gif",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/d5/d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877.gif",
-      "sha256": "d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877",
-      "bytes": 10498906,
-      "contentType": "image/gif",
-      "contentDisposition": null,
-      "cacheControl": "public, max-age=31536000, immutable",
-      "logicalIds": [
-        "project/misc-effects/9603fb52-fbd2-48fe-8fb3-c7d99d8fdf83"
-      ],
-      "references": [
-        {
-          "logicalId": "project/misc-effects/9603fb52-fbd2-48fe-8fb3-c7d99d8fdf83",
-          "page": "项目详情/其他效果.html",
-          "language": "zh-CN",
-          "locations": [
-            "a[href]",
-            "img[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/d5/d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877.gif"
-        },
-        {
-          "logicalId": "project/misc-effects/9603fb52-fbd2-48fe-8fb3-c7d99d8fdf83",
-          "page": "项目详情/其他效果_en.html",
-          "language": "en",
-          "locations": [
-            "a[href]",
-            "img[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/d5/d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877.gif"
-        }
-      ]
-    },
-    {
-      "objectKey": "v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4",
-      "sha256": "68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0",
-      "bytes": 5457993,
-      "contentType": "video/mp4",
-      "contentDisposition": null,
-      "cacheControl": "public, max-age=31536000, immutable",
-      "logicalIds": [
-        "project/misc-effects/64ecab32-61fa-410c-87ef-1fc2331c8fbf"
-      ],
-      "references": [
-        {
-          "logicalId": "project/misc-effects/64ecab32-61fa-410c-87ef-1fc2331c8fbf",
-          "page": "项目详情/其他效果.html",
-          "language": "zh-CN",
-          "locations": [
-            "video[data-src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4"
-        },
-        {
-          "logicalId": "project/misc-effects/64ecab32-61fa-410c-87ef-1fc2331c8fbf",
-          "page": "项目详情/其他效果_en.html",
-          "language": "en",
-          "locations": [
-            "video[data-src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4"
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/13/132406afd68cb6500931671e1eaa59e73cadd4c5a256db44f6e303c0c2f1f67a.mp4"
         }
       ]
     },
@@ -2007,72 +1959,167 @@
       ]
     },
     {
-      "objectKey": "v1/sha256/c9/c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8.gif",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/c9/c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8.gif",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c9/c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8.gif",
-      "sha256": "c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8",
-      "bytes": 34845402,
-      "contentType": "image/gif",
+      "objectKey": "v1/sha256/8d/8dfabbddd02c4ed7cb45fd622ac8f71f33e0f0e87d5d961ebcddb77b1be84769.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/8d/8dfabbddd02c4ed7cb45fd622ac8f71f33e0f0e87d5d961ebcddb77b1be84769.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8d/8dfabbddd02c4ed7cb45fd622ac8f71f33e0f0e87d5d961ebcddb77b1be84769.mp4",
+      "sha256": "8dfabbddd02c4ed7cb45fd622ac8f71f33e0f0e87d5d961ebcddb77b1be84769",
+      "bytes": 5813589,
+      "contentType": "video/mp4",
       "contentDisposition": null,
       "cacheControl": "public, max-age=31536000, immutable",
       "logicalIds": [
-        "project/misc-effects/431ed8f5-9eee-4a23-adf5-f2a69d255862"
+        "project/misc-effects/939dadb1-faf2-4484-bea2-c55faa55c62c"
       ],
       "references": [
         {
-          "logicalId": "project/misc-effects/431ed8f5-9eee-4a23-adf5-f2a69d255862",
+          "logicalId": "project/misc-effects/939dadb1-faf2-4484-bea2-c55faa55c62c",
           "page": "项目详情/其他效果.html",
           "language": "zh-CN",
           "locations": [
-            "a[href]",
-            "img[src]"
+            "video[data-src]"
           ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c9/c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8.gif"
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8d/8dfabbddd02c4ed7cb45fd622ac8f71f33e0f0e87d5d961ebcddb77b1be84769.mp4"
         },
         {
-          "logicalId": "project/misc-effects/431ed8f5-9eee-4a23-adf5-f2a69d255862",
+          "logicalId": "project/misc-effects/939dadb1-faf2-4484-bea2-c55faa55c62c",
           "page": "项目详情/其他效果_en.html",
           "language": "en",
           "locations": [
-            "a[href]",
-            "img[src]"
+            "video[data-src]"
           ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c9/c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8.gif"
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8d/8dfabbddd02c4ed7cb45fd622ac8f71f33e0f0e87d5d961ebcddb77b1be84769.mp4"
         }
       ]
     },
     {
-      "objectKey": "v1/sha256/c7/c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729.gif",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/c7/c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729.gif",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c7/c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729.gif",
-      "sha256": "c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729",
-      "bytes": 25772337,
-      "contentType": "image/gif",
+      "objectKey": "v1/sha256/a8/a8531077883628962b122a00eb7c6b8023c16f4dde3813ecb338a84367962d38.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/a8/a8531077883628962b122a00eb7c6b8023c16f4dde3813ecb338a84367962d38.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/a8/a8531077883628962b122a00eb7c6b8023c16f4dde3813ecb338a84367962d38.mp4",
+      "sha256": "a8531077883628962b122a00eb7c6b8023c16f4dde3813ecb338a84367962d38",
+      "bytes": 7860487,
+      "contentType": "video/mp4",
       "contentDisposition": null,
       "cacheControl": "public, max-age=31536000, immutable",
       "logicalIds": [
-        "project/misc-effects/52ac6b23-68c4-4c3e-bbfc-4fe45dad2215"
+        "project/misc-effects/650e0c92-398a-4ae7-91e9-92673067f39e"
       ],
       "references": [
         {
-          "logicalId": "project/misc-effects/52ac6b23-68c4-4c3e-bbfc-4fe45dad2215",
+          "logicalId": "project/misc-effects/650e0c92-398a-4ae7-91e9-92673067f39e",
           "page": "项目详情/其他效果.html",
           "language": "zh-CN",
           "locations": [
-            "a[href]",
-            "img[src]"
+            "video[data-src]"
           ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c7/c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729.gif"
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/a8/a8531077883628962b122a00eb7c6b8023c16f4dde3813ecb338a84367962d38.mp4"
         },
         {
-          "logicalId": "project/misc-effects/52ac6b23-68c4-4c3e-bbfc-4fe45dad2215",
+          "logicalId": "project/misc-effects/650e0c92-398a-4ae7-91e9-92673067f39e",
           "page": "项目详情/其他效果_en.html",
           "language": "en",
           "locations": [
-            "a[href]",
-            "img[src]"
+            "video[data-src]"
           ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c7/c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729.gif"
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/a8/a8531077883628962b122a00eb7c6b8023c16f4dde3813ecb338a84367962d38.mp4"
+        }
+      ]
+    },
+    {
+      "objectKey": "v1/sha256/4d/4d5650ee94b3e710efddc52cbe58d68e784345cfafc082e5b5090455ef81f4f0.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/4d/4d5650ee94b3e710efddc52cbe58d68e784345cfafc082e5b5090455ef81f4f0.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/4d/4d5650ee94b3e710efddc52cbe58d68e784345cfafc082e5b5090455ef81f4f0.mp4",
+      "sha256": "4d5650ee94b3e710efddc52cbe58d68e784345cfafc082e5b5090455ef81f4f0",
+      "bytes": 10833871,
+      "contentType": "video/mp4",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "logicalIds": [
+        "project/misc-effects/59b3911a-c3c4-457d-b1c7-466783a682b7"
+      ],
+      "references": [
+        {
+          "logicalId": "project/misc-effects/59b3911a-c3c4-457d-b1c7-466783a682b7",
+          "page": "项目详情/其他效果.html",
+          "language": "zh-CN",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/4d/4d5650ee94b3e710efddc52cbe58d68e784345cfafc082e5b5090455ef81f4f0.mp4"
+        },
+        {
+          "logicalId": "project/misc-effects/59b3911a-c3c4-457d-b1c7-466783a682b7",
+          "page": "项目详情/其他效果_en.html",
+          "language": "en",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/4d/4d5650ee94b3e710efddc52cbe58d68e784345cfafc082e5b5090455ef81f4f0.mp4"
+        }
+      ]
+    },
+    {
+      "objectKey": "v1/sha256/df/dfa8a01a6232bc0b8b3174a8eb124b12fe290c1082c4fa90de965d1a2f9bd400.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/df/dfa8a01a6232bc0b8b3174a8eb124b12fe290c1082c4fa90de965d1a2f9bd400.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/df/dfa8a01a6232bc0b8b3174a8eb124b12fe290c1082c4fa90de965d1a2f9bd400.mp4",
+      "sha256": "dfa8a01a6232bc0b8b3174a8eb124b12fe290c1082c4fa90de965d1a2f9bd400",
+      "bytes": 15130285,
+      "contentType": "video/mp4",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "logicalIds": [
+        "project/misc-effects/31efeaf8-b82c-4190-8029-32d5b5418f51"
+      ],
+      "references": [
+        {
+          "logicalId": "project/misc-effects/31efeaf8-b82c-4190-8029-32d5b5418f51",
+          "page": "项目详情/其他效果.html",
+          "language": "zh-CN",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/df/dfa8a01a6232bc0b8b3174a8eb124b12fe290c1082c4fa90de965d1a2f9bd400.mp4"
+        },
+        {
+          "logicalId": "project/misc-effects/31efeaf8-b82c-4190-8029-32d5b5418f51",
+          "page": "项目详情/其他效果_en.html",
+          "language": "en",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/df/dfa8a01a6232bc0b8b3174a8eb124b12fe290c1082c4fa90de965d1a2f9bd400.mp4"
+        }
+      ]
+    },
+    {
+      "objectKey": "v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4",
+      "sha256": "3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47",
+      "bytes": 12905678,
+      "contentType": "video/mp4",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "logicalIds": [
+        "project/misc-effects/99363e0c-9f08-4301-b3ff-74c4e95e18ab"
+      ],
+      "references": [
+        {
+          "logicalId": "project/misc-effects/99363e0c-9f08-4301-b3ff-74c4e95e18ab",
+          "page": "项目详情/其他效果.html",
+          "language": "zh-CN",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4"
+        },
+        {
+          "logicalId": "project/misc-effects/99363e0c-9f08-4301-b3ff-74c4e95e18ab",
+          "page": "项目详情/其他效果_en.html",
+          "language": "en",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4"
         }
       ]
     },
@@ -2141,6 +2188,249 @@
             "video[data-src]"
           ],
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/3e/3e1c187c54b63fd6842723b9ab0f23c5f60b0ba276967d9742e2f06e27812d3f.mp4"
+        }
+      ]
+    },
+    {
+      "objectKey": "v1/sha256/05/05538698fba9fe0494b6007d344314ad7d275384e4b5b86bcf09d126162927ce.png",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/05/05538698fba9fe0494b6007d344314ad7d275384e4b5b86bcf09d126162927ce.png",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/05/05538698fba9fe0494b6007d344314ad7d275384e4b5b86bcf09d126162927ce.png",
+      "sha256": "05538698fba9fe0494b6007d344314ad7d275384e4b5b86bcf09d126162927ce",
+      "bytes": 1447086,
+      "contentType": "image/png",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "logicalIds": [
+        "project/misc-effects/4ad472c9-8f01-42d8-a4a9-0891a559b445"
+      ],
+      "references": [
+        {
+          "logicalId": "project/misc-effects/4ad472c9-8f01-42d8-a4a9-0891a559b445",
+          "page": "项目详情/其他效果.html",
+          "language": "zh-CN",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/05/05538698fba9fe0494b6007d344314ad7d275384e4b5b86bcf09d126162927ce.png"
+        },
+        {
+          "logicalId": "project/misc-effects/4ad472c9-8f01-42d8-a4a9-0891a559b445",
+          "page": "项目详情/其他效果_en.html",
+          "language": "en",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/05/05538698fba9fe0494b6007d344314ad7d275384e4b5b86bcf09d126162927ce.png"
+        }
+      ]
+    },
+    {
+      "objectKey": "v1/sha256/d5/d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877.gif",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/d5/d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877.gif",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/d5/d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877.gif",
+      "sha256": "d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877",
+      "bytes": 10498906,
+      "contentType": "image/gif",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "logicalIds": [
+        "project/misc-effects/9603fb52-fbd2-48fe-8fb3-c7d99d8fdf83"
+      ],
+      "references": [
+        {
+          "logicalId": "project/misc-effects/9603fb52-fbd2-48fe-8fb3-c7d99d8fdf83",
+          "page": "项目详情/其他效果.html",
+          "language": "zh-CN",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/d5/d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877.gif"
+        },
+        {
+          "logicalId": "project/misc-effects/9603fb52-fbd2-48fe-8fb3-c7d99d8fdf83",
+          "page": "项目详情/其他效果_en.html",
+          "language": "en",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/d5/d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877.gif"
+        }
+      ]
+    },
+    {
+      "objectKey": "v1/sha256/8a/8a37b363144f0ba0cb2329ae3186f1f0d368eed1678a6635ca9003d45e1388eb.png",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/8a/8a37b363144f0ba0cb2329ae3186f1f0d368eed1678a6635ca9003d45e1388eb.png",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8a/8a37b363144f0ba0cb2329ae3186f1f0d368eed1678a6635ca9003d45e1388eb.png",
+      "sha256": "8a37b363144f0ba0cb2329ae3186f1f0d368eed1678a6635ca9003d45e1388eb",
+      "bytes": 2804179,
+      "contentType": "image/png",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "logicalIds": [
+        "project/misc-effects/2fe38680-102f-4fb5-bc53-5a56e98ace83"
+      ],
+      "references": [
+        {
+          "logicalId": "project/misc-effects/2fe38680-102f-4fb5-bc53-5a56e98ace83",
+          "page": "项目详情/其他效果.html",
+          "language": "zh-CN",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8a/8a37b363144f0ba0cb2329ae3186f1f0d368eed1678a6635ca9003d45e1388eb.png"
+        },
+        {
+          "logicalId": "project/misc-effects/2fe38680-102f-4fb5-bc53-5a56e98ace83",
+          "page": "项目详情/其他效果_en.html",
+          "language": "en",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8a/8a37b363144f0ba0cb2329ae3186f1f0d368eed1678a6635ca9003d45e1388eb.png"
+        }
+      ]
+    },
+    {
+      "objectKey": "v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4",
+      "sha256": "68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0",
+      "bytes": 5457993,
+      "contentType": "video/mp4",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "logicalIds": [
+        "project/misc-effects/64ecab32-61fa-410c-87ef-1fc2331c8fbf"
+      ],
+      "references": [
+        {
+          "logicalId": "project/misc-effects/64ecab32-61fa-410c-87ef-1fc2331c8fbf",
+          "page": "项目详情/其他效果.html",
+          "language": "zh-CN",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4"
+        },
+        {
+          "logicalId": "project/misc-effects/64ecab32-61fa-410c-87ef-1fc2331c8fbf",
+          "page": "项目详情/其他效果_en.html",
+          "language": "en",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4"
+        }
+      ]
+    },
+    {
+      "objectKey": "v1/sha256/b7/b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9.gif",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/b7/b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9.gif",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/b7/b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9.gif",
+      "sha256": "b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9",
+      "bytes": 4508634,
+      "contentType": "image/gif",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "logicalIds": [
+        "project/misc-effects/3cfcb5ea-2cfc-4ab6-909c-23ec5bc9de81"
+      ],
+      "references": [
+        {
+          "logicalId": "project/misc-effects/3cfcb5ea-2cfc-4ab6-909c-23ec5bc9de81",
+          "page": "项目详情/其他效果.html",
+          "language": "zh-CN",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/b7/b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9.gif"
+        },
+        {
+          "logicalId": "project/misc-effects/3cfcb5ea-2cfc-4ab6-909c-23ec5bc9de81",
+          "page": "项目详情/其他效果_en.html",
+          "language": "en",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/b7/b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9.gif"
+        }
+      ]
+    },
+    {
+      "objectKey": "v1/sha256/c7/c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729.gif",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/c7/c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729.gif",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c7/c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729.gif",
+      "sha256": "c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729",
+      "bytes": 25772337,
+      "contentType": "image/gif",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "logicalIds": [
+        "project/misc-effects/52ac6b23-68c4-4c3e-bbfc-4fe45dad2215"
+      ],
+      "references": [
+        {
+          "logicalId": "project/misc-effects/52ac6b23-68c4-4c3e-bbfc-4fe45dad2215",
+          "page": "项目详情/其他效果.html",
+          "language": "zh-CN",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c7/c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729.gif"
+        },
+        {
+          "logicalId": "project/misc-effects/52ac6b23-68c4-4c3e-bbfc-4fe45dad2215",
+          "page": "项目详情/其他效果_en.html",
+          "language": "en",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c7/c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729.gif"
+        }
+      ]
+    },
+    {
+      "objectKey": "v1/sha256/c9/c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8.gif",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/c9/c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8.gif",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c9/c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8.gif",
+      "sha256": "c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8",
+      "bytes": 34845402,
+      "contentType": "image/gif",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "logicalIds": [
+        "project/misc-effects/431ed8f5-9eee-4a23-adf5-f2a69d255862"
+      ],
+      "references": [
+        {
+          "logicalId": "project/misc-effects/431ed8f5-9eee-4a23-adf5-f2a69d255862",
+          "page": "项目详情/其他效果.html",
+          "language": "zh-CN",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c9/c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8.gif"
+        },
+        {
+          "logicalId": "project/misc-effects/431ed8f5-9eee-4a23-adf5-f2a69d255862",
+          "page": "项目详情/其他效果_en.html",
+          "language": "en",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c9/c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8.gif"
         }
       ]
     },
@@ -2279,41 +2569,6 @@
             "img[src]"
           ],
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/41/416edfc3dd73e57c4caa56add48a1d8a1a50a7decaa521fc4126c523ff2cae09.png"
-        }
-      ]
-    },
-    {
-      "objectKey": "v1/sha256/b7/b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9.gif",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/b7/b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9.gif",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/b7/b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9.gif",
-      "sha256": "b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9",
-      "bytes": 4508634,
-      "contentType": "image/gif",
-      "contentDisposition": null,
-      "cacheControl": "public, max-age=31536000, immutable",
-      "logicalIds": [
-        "project/misc-effects/3cfcb5ea-2cfc-4ab6-909c-23ec5bc9de81"
-      ],
-      "references": [
-        {
-          "logicalId": "project/misc-effects/3cfcb5ea-2cfc-4ab6-909c-23ec5bc9de81",
-          "page": "项目详情/其他效果.html",
-          "language": "zh-CN",
-          "locations": [
-            "a[href]",
-            "img[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/b7/b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9.gif"
-        },
-        {
-          "logicalId": "project/misc-effects/3cfcb5ea-2cfc-4ab6-909c-23ec5bc9de81",
-          "page": "项目详情/其他效果_en.html",
-          "language": "en",
-          "locations": [
-            "a[href]",
-            "img[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/b7/b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9.gif"
         }
       ]
     },
@@ -3498,11 +3753,11 @@
       "projectId": null,
       "kind": "image",
       "sourcePath": "assets/site-background.webp",
-      "objectKey": "v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp",
-      "bytes": 208834,
-      "sha256": "1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030",
+      "objectKey": "v1/sha256/5b/5bf9f0776a4e17574f2794fcf50b4d2e0fc4fd064ea8e35f80948defdd3951a6.webp",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/5b/5bf9f0776a4e17574f2794fcf50b4d2e0fc4fd064ea8e35f80948defdd3951a6.webp",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/5b/5bf9f0776a4e17574f2794fcf50b4d2e0fc4fd064ea8e35f80948defdd3951a6.webp",
+      "bytes": 337110,
+      "sha256": "5bf9f0776a4e17574f2794fcf50b4d2e0fc4fd064ea8e35f80948defdd3951a6",
       "contentType": "image/webp",
       "contentDisposition": null,
       "cacheControl": "public, max-age=31536000, immutable",
@@ -3513,7 +3768,7 @@
           "locations": [
             "style url()"
           ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp"
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/5b/5bf9f0776a4e17574f2794fcf50b4d2e0fc4fd064ea8e35f80948defdd3951a6.webp"
         },
         {
           "page": "index-en.html",
@@ -3521,7 +3776,7 @@
           "locations": [
             "style url()"
           ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp"
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/5b/5bf9f0776a4e17574f2794fcf50b4d2e0fc4fd064ea8e35f80948defdd3951a6.webp"
         },
         {
           "page": "index-zh.html",
@@ -3529,7 +3784,7 @@
           "locations": [
             "style url()"
           ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp"
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/5b/5bf9f0776a4e17574f2794fcf50b4d2e0fc4fd064ea8e35f80948defdd3951a6.webp"
         },
         {
           "page": "项目详情/project-detail.css",
@@ -3537,7 +3792,7 @@
           "locations": [
             "css url()"
           ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp"
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/5b/5bf9f0776a4e17574f2794fcf50b4d2e0fc4fd064ea8e35f80948defdd3951a6.webp"
         }
       ]
     },
@@ -4976,16 +5231,16 @@
       ]
     },
     {
-      "logicalId": "project/misc-effects/99363e0c-9f08-4301-b3ff-74c4e95e18ab",
-      "assetId": "99363e0c-9f08-4301-b3ff-74c4e95e18ab",
+      "logicalId": "project/misc-effects/1315e937-c340-4d8e-bffa-aca4c7268496",
+      "assetId": "1315e937-c340-4d8e-bffa-aca4c7268496",
       "projectId": "misc-effects",
       "kind": "video",
-      "sourcePath": "indexeddb/misc-effects/99363e0c-9f08-4301-b3ff-74c4e95e18ab",
-      "objectKey": "v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4",
-      "bytes": 12905678,
-      "sha256": "3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47",
+      "sourcePath": "indexeddb/misc-effects/1315e937-c340-4d8e-bffa-aca4c7268496",
+      "objectKey": "v1/sha256/13/132406afd68cb6500931671e1eaa59e73cadd4c5a256db44f6e303c0c2f1f67a.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/13/132406afd68cb6500931671e1eaa59e73cadd4c5a256db44f6e303c0c2f1f67a.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/13/132406afd68cb6500931671e1eaa59e73cadd4c5a256db44f6e303c0c2f1f67a.mp4",
+      "bytes": 18658720,
+      "sha256": "132406afd68cb6500931671e1eaa59e73cadd4c5a256db44f6e303c0c2f1f67a",
       "contentType": "video/mp4",
       "contentDisposition": null,
       "cacheControl": "public, max-age=31536000, immutable",
@@ -4996,7 +5251,7 @@
           "locations": [
             "video[data-src]"
           ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4"
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/13/132406afd68cb6500931671e1eaa59e73cadd4c5a256db44f6e303c0c2f1f67a.mp4"
         },
         {
           "page": "项目详情/其他效果_en.html",
@@ -5004,75 +5259,7 @@
           "locations": [
             "video[data-src]"
           ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4"
-        }
-      ]
-    },
-    {
-      "logicalId": "project/misc-effects/9603fb52-fbd2-48fe-8fb3-c7d99d8fdf83",
-      "assetId": "9603fb52-fbd2-48fe-8fb3-c7d99d8fdf83",
-      "projectId": "misc-effects",
-      "kind": "image",
-      "sourcePath": "indexeddb/misc-effects/9603fb52-fbd2-48fe-8fb3-c7d99d8fdf83",
-      "objectKey": "v1/sha256/d5/d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877.gif",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/d5/d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877.gif",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/d5/d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877.gif",
-      "bytes": 10498906,
-      "sha256": "d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877",
-      "contentType": "image/gif",
-      "contentDisposition": null,
-      "cacheControl": "public, max-age=31536000, immutable",
-      "references": [
-        {
-          "page": "项目详情/其他效果.html",
-          "language": "zh-CN",
-          "locations": [
-            "a[href]",
-            "img[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/d5/d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877.gif"
-        },
-        {
-          "page": "项目详情/其他效果_en.html",
-          "language": "en",
-          "locations": [
-            "a[href]",
-            "img[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/d5/d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877.gif"
-        }
-      ]
-    },
-    {
-      "logicalId": "project/misc-effects/64ecab32-61fa-410c-87ef-1fc2331c8fbf",
-      "assetId": "64ecab32-61fa-410c-87ef-1fc2331c8fbf",
-      "projectId": "misc-effects",
-      "kind": "video",
-      "sourcePath": "indexeddb/misc-effects/64ecab32-61fa-410c-87ef-1fc2331c8fbf",
-      "objectKey": "v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4",
-      "bytes": 5457993,
-      "sha256": "68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0",
-      "contentType": "video/mp4",
-      "contentDisposition": null,
-      "cacheControl": "public, max-age=31536000, immutable",
-      "references": [
-        {
-          "page": "项目详情/其他效果.html",
-          "language": "zh-CN",
-          "locations": [
-            "video[data-src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4"
-        },
-        {
-          "page": "项目详情/其他效果_en.html",
-          "language": "en",
-          "locations": [
-            "video[data-src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4"
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/13/132406afd68cb6500931671e1eaa59e73cadd4c5a256db44f6e303c0c2f1f67a.mp4"
         }
       ]
     },
@@ -5110,17 +5297,17 @@
       ]
     },
     {
-      "logicalId": "project/misc-effects/431ed8f5-9eee-4a23-adf5-f2a69d255862",
-      "assetId": "431ed8f5-9eee-4a23-adf5-f2a69d255862",
+      "logicalId": "project/misc-effects/939dadb1-faf2-4484-bea2-c55faa55c62c",
+      "assetId": "939dadb1-faf2-4484-bea2-c55faa55c62c",
       "projectId": "misc-effects",
-      "kind": "image",
-      "sourcePath": "indexeddb/misc-effects/431ed8f5-9eee-4a23-adf5-f2a69d255862",
-      "objectKey": "v1/sha256/c9/c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8.gif",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/c9/c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8.gif",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c9/c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8.gif",
-      "bytes": 34845402,
-      "sha256": "c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8",
-      "contentType": "image/gif",
+      "kind": "video",
+      "sourcePath": "indexeddb/misc-effects/939dadb1-faf2-4484-bea2-c55faa55c62c",
+      "objectKey": "v1/sha256/8d/8dfabbddd02c4ed7cb45fd622ac8f71f33e0f0e87d5d961ebcddb77b1be84769.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/8d/8dfabbddd02c4ed7cb45fd622ac8f71f33e0f0e87d5d961ebcddb77b1be84769.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8d/8dfabbddd02c4ed7cb45fd622ac8f71f33e0f0e87d5d961ebcddb77b1be84769.mp4",
+      "bytes": 5813589,
+      "sha256": "8dfabbddd02c4ed7cb45fd622ac8f71f33e0f0e87d5d961ebcddb77b1be84769",
+      "contentType": "video/mp4",
       "contentDisposition": null,
       "cacheControl": "public, max-age=31536000, immutable",
       "references": [
@@ -5128,34 +5315,32 @@
           "page": "项目详情/其他效果.html",
           "language": "zh-CN",
           "locations": [
-            "a[href]",
-            "img[src]"
+            "video[data-src]"
           ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c9/c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8.gif"
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8d/8dfabbddd02c4ed7cb45fd622ac8f71f33e0f0e87d5d961ebcddb77b1be84769.mp4"
         },
         {
           "page": "项目详情/其他效果_en.html",
           "language": "en",
           "locations": [
-            "a[href]",
-            "img[src]"
+            "video[data-src]"
           ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c9/c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8.gif"
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8d/8dfabbddd02c4ed7cb45fd622ac8f71f33e0f0e87d5d961ebcddb77b1be84769.mp4"
         }
       ]
     },
     {
-      "logicalId": "project/misc-effects/52ac6b23-68c4-4c3e-bbfc-4fe45dad2215",
-      "assetId": "52ac6b23-68c4-4c3e-bbfc-4fe45dad2215",
+      "logicalId": "project/misc-effects/650e0c92-398a-4ae7-91e9-92673067f39e",
+      "assetId": "650e0c92-398a-4ae7-91e9-92673067f39e",
       "projectId": "misc-effects",
-      "kind": "image",
-      "sourcePath": "indexeddb/misc-effects/52ac6b23-68c4-4c3e-bbfc-4fe45dad2215",
-      "objectKey": "v1/sha256/c7/c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729.gif",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/c7/c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729.gif",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c7/c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729.gif",
-      "bytes": 25772337,
-      "sha256": "c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729",
-      "contentType": "image/gif",
+      "kind": "video",
+      "sourcePath": "indexeddb/misc-effects/650e0c92-398a-4ae7-91e9-92673067f39e",
+      "objectKey": "v1/sha256/a8/a8531077883628962b122a00eb7c6b8023c16f4dde3813ecb338a84367962d38.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/a8/a8531077883628962b122a00eb7c6b8023c16f4dde3813ecb338a84367962d38.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/a8/a8531077883628962b122a00eb7c6b8023c16f4dde3813ecb338a84367962d38.mp4",
+      "bytes": 7860487,
+      "sha256": "a8531077883628962b122a00eb7c6b8023c16f4dde3813ecb338a84367962d38",
+      "contentType": "video/mp4",
       "contentDisposition": null,
       "cacheControl": "public, max-age=31536000, immutable",
       "references": [
@@ -5163,19 +5348,116 @@
           "page": "项目详情/其他效果.html",
           "language": "zh-CN",
           "locations": [
-            "a[href]",
-            "img[src]"
+            "video[data-src]"
           ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c7/c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729.gif"
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/a8/a8531077883628962b122a00eb7c6b8023c16f4dde3813ecb338a84367962d38.mp4"
         },
         {
           "page": "项目详情/其他效果_en.html",
           "language": "en",
           "locations": [
-            "a[href]",
-            "img[src]"
+            "video[data-src]"
           ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c7/c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729.gif"
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/a8/a8531077883628962b122a00eb7c6b8023c16f4dde3813ecb338a84367962d38.mp4"
+        }
+      ]
+    },
+    {
+      "logicalId": "project/misc-effects/59b3911a-c3c4-457d-b1c7-466783a682b7",
+      "assetId": "59b3911a-c3c4-457d-b1c7-466783a682b7",
+      "projectId": "misc-effects",
+      "kind": "video",
+      "sourcePath": "indexeddb/misc-effects/59b3911a-c3c4-457d-b1c7-466783a682b7",
+      "objectKey": "v1/sha256/4d/4d5650ee94b3e710efddc52cbe58d68e784345cfafc082e5b5090455ef81f4f0.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/4d/4d5650ee94b3e710efddc52cbe58d68e784345cfafc082e5b5090455ef81f4f0.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/4d/4d5650ee94b3e710efddc52cbe58d68e784345cfafc082e5b5090455ef81f4f0.mp4",
+      "bytes": 10833871,
+      "sha256": "4d5650ee94b3e710efddc52cbe58d68e784345cfafc082e5b5090455ef81f4f0",
+      "contentType": "video/mp4",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "references": [
+        {
+          "page": "项目详情/其他效果.html",
+          "language": "zh-CN",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/4d/4d5650ee94b3e710efddc52cbe58d68e784345cfafc082e5b5090455ef81f4f0.mp4"
+        },
+        {
+          "page": "项目详情/其他效果_en.html",
+          "language": "en",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/4d/4d5650ee94b3e710efddc52cbe58d68e784345cfafc082e5b5090455ef81f4f0.mp4"
+        }
+      ]
+    },
+    {
+      "logicalId": "project/misc-effects/31efeaf8-b82c-4190-8029-32d5b5418f51",
+      "assetId": "31efeaf8-b82c-4190-8029-32d5b5418f51",
+      "projectId": "misc-effects",
+      "kind": "video",
+      "sourcePath": "indexeddb/misc-effects/31efeaf8-b82c-4190-8029-32d5b5418f51",
+      "objectKey": "v1/sha256/df/dfa8a01a6232bc0b8b3174a8eb124b12fe290c1082c4fa90de965d1a2f9bd400.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/df/dfa8a01a6232bc0b8b3174a8eb124b12fe290c1082c4fa90de965d1a2f9bd400.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/df/dfa8a01a6232bc0b8b3174a8eb124b12fe290c1082c4fa90de965d1a2f9bd400.mp4",
+      "bytes": 15130285,
+      "sha256": "dfa8a01a6232bc0b8b3174a8eb124b12fe290c1082c4fa90de965d1a2f9bd400",
+      "contentType": "video/mp4",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "references": [
+        {
+          "page": "项目详情/其他效果.html",
+          "language": "zh-CN",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/df/dfa8a01a6232bc0b8b3174a8eb124b12fe290c1082c4fa90de965d1a2f9bd400.mp4"
+        },
+        {
+          "page": "项目详情/其他效果_en.html",
+          "language": "en",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/df/dfa8a01a6232bc0b8b3174a8eb124b12fe290c1082c4fa90de965d1a2f9bd400.mp4"
+        }
+      ]
+    },
+    {
+      "logicalId": "project/misc-effects/99363e0c-9f08-4301-b3ff-74c4e95e18ab",
+      "assetId": "99363e0c-9f08-4301-b3ff-74c4e95e18ab",
+      "projectId": "misc-effects",
+      "kind": "video",
+      "sourcePath": "indexeddb/misc-effects/99363e0c-9f08-4301-b3ff-74c4e95e18ab",
+      "objectKey": "v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4",
+      "bytes": 12905678,
+      "sha256": "3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47",
+      "contentType": "video/mp4",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "references": [
+        {
+          "page": "项目详情/其他效果.html",
+          "language": "zh-CN",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4"
+        },
+        {
+          "page": "项目详情/其他效果_en.html",
+          "language": "en",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/3e/3ec357f2c067dd3ae1d6025c1ae98d4b711e99a3bcb23eef996cb0a0366b6d47.mp4"
         }
       ]
     },
@@ -5244,6 +5526,249 @@
             "video[data-src]"
           ],
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/3e/3e1c187c54b63fd6842723b9ab0f23c5f60b0ba276967d9742e2f06e27812d3f.mp4"
+        }
+      ]
+    },
+    {
+      "logicalId": "project/misc-effects/4ad472c9-8f01-42d8-a4a9-0891a559b445",
+      "assetId": "4ad472c9-8f01-42d8-a4a9-0891a559b445",
+      "projectId": "misc-effects",
+      "kind": "image",
+      "sourcePath": "indexeddb/misc-effects/4ad472c9-8f01-42d8-a4a9-0891a559b445",
+      "objectKey": "v1/sha256/05/05538698fba9fe0494b6007d344314ad7d275384e4b5b86bcf09d126162927ce.png",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/05/05538698fba9fe0494b6007d344314ad7d275384e4b5b86bcf09d126162927ce.png",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/05/05538698fba9fe0494b6007d344314ad7d275384e4b5b86bcf09d126162927ce.png",
+      "bytes": 1447086,
+      "sha256": "05538698fba9fe0494b6007d344314ad7d275384e4b5b86bcf09d126162927ce",
+      "contentType": "image/png",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "references": [
+        {
+          "page": "项目详情/其他效果.html",
+          "language": "zh-CN",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/05/05538698fba9fe0494b6007d344314ad7d275384e4b5b86bcf09d126162927ce.png"
+        },
+        {
+          "page": "项目详情/其他效果_en.html",
+          "language": "en",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/05/05538698fba9fe0494b6007d344314ad7d275384e4b5b86bcf09d126162927ce.png"
+        }
+      ]
+    },
+    {
+      "logicalId": "project/misc-effects/9603fb52-fbd2-48fe-8fb3-c7d99d8fdf83",
+      "assetId": "9603fb52-fbd2-48fe-8fb3-c7d99d8fdf83",
+      "projectId": "misc-effects",
+      "kind": "image",
+      "sourcePath": "indexeddb/misc-effects/9603fb52-fbd2-48fe-8fb3-c7d99d8fdf83",
+      "objectKey": "v1/sha256/d5/d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877.gif",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/d5/d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877.gif",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/d5/d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877.gif",
+      "bytes": 10498906,
+      "sha256": "d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877",
+      "contentType": "image/gif",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "references": [
+        {
+          "page": "项目详情/其他效果.html",
+          "language": "zh-CN",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/d5/d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877.gif"
+        },
+        {
+          "page": "项目详情/其他效果_en.html",
+          "language": "en",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/d5/d576e4a60c301df1d8a9bc81e79419eb92ee6a58c0b5a5834c51c16df03c7877.gif"
+        }
+      ]
+    },
+    {
+      "logicalId": "project/misc-effects/2fe38680-102f-4fb5-bc53-5a56e98ace83",
+      "assetId": "2fe38680-102f-4fb5-bc53-5a56e98ace83",
+      "projectId": "misc-effects",
+      "kind": "image",
+      "sourcePath": "indexeddb/misc-effects/2fe38680-102f-4fb5-bc53-5a56e98ace83",
+      "objectKey": "v1/sha256/8a/8a37b363144f0ba0cb2329ae3186f1f0d368eed1678a6635ca9003d45e1388eb.png",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/8a/8a37b363144f0ba0cb2329ae3186f1f0d368eed1678a6635ca9003d45e1388eb.png",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8a/8a37b363144f0ba0cb2329ae3186f1f0d368eed1678a6635ca9003d45e1388eb.png",
+      "bytes": 2804179,
+      "sha256": "8a37b363144f0ba0cb2329ae3186f1f0d368eed1678a6635ca9003d45e1388eb",
+      "contentType": "image/png",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "references": [
+        {
+          "page": "项目详情/其他效果.html",
+          "language": "zh-CN",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8a/8a37b363144f0ba0cb2329ae3186f1f0d368eed1678a6635ca9003d45e1388eb.png"
+        },
+        {
+          "page": "项目详情/其他效果_en.html",
+          "language": "en",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/8a/8a37b363144f0ba0cb2329ae3186f1f0d368eed1678a6635ca9003d45e1388eb.png"
+        }
+      ]
+    },
+    {
+      "logicalId": "project/misc-effects/64ecab32-61fa-410c-87ef-1fc2331c8fbf",
+      "assetId": "64ecab32-61fa-410c-87ef-1fc2331c8fbf",
+      "projectId": "misc-effects",
+      "kind": "video",
+      "sourcePath": "indexeddb/misc-effects/64ecab32-61fa-410c-87ef-1fc2331c8fbf",
+      "objectKey": "v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4",
+      "bytes": 5457993,
+      "sha256": "68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0",
+      "contentType": "video/mp4",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "references": [
+        {
+          "page": "项目详情/其他效果.html",
+          "language": "zh-CN",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4"
+        },
+        {
+          "page": "项目详情/其他效果_en.html",
+          "language": "en",
+          "locations": [
+            "video[data-src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/68/68ec65aa64dc13d9a10440ef267bcf05a6775f3937ae9a1697461223ad3e93c0.mp4"
+        }
+      ]
+    },
+    {
+      "logicalId": "project/misc-effects/3cfcb5ea-2cfc-4ab6-909c-23ec5bc9de81",
+      "assetId": "3cfcb5ea-2cfc-4ab6-909c-23ec5bc9de81",
+      "projectId": "misc-effects",
+      "kind": "image",
+      "sourcePath": "indexeddb/misc-effects/3cfcb5ea-2cfc-4ab6-909c-23ec5bc9de81",
+      "objectKey": "v1/sha256/b7/b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9.gif",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/b7/b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9.gif",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/b7/b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9.gif",
+      "bytes": 4508634,
+      "sha256": "b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9",
+      "contentType": "image/gif",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "references": [
+        {
+          "page": "项目详情/其他效果.html",
+          "language": "zh-CN",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/b7/b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9.gif"
+        },
+        {
+          "page": "项目详情/其他效果_en.html",
+          "language": "en",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/b7/b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9.gif"
+        }
+      ]
+    },
+    {
+      "logicalId": "project/misc-effects/52ac6b23-68c4-4c3e-bbfc-4fe45dad2215",
+      "assetId": "52ac6b23-68c4-4c3e-bbfc-4fe45dad2215",
+      "projectId": "misc-effects",
+      "kind": "image",
+      "sourcePath": "indexeddb/misc-effects/52ac6b23-68c4-4c3e-bbfc-4fe45dad2215",
+      "objectKey": "v1/sha256/c7/c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729.gif",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/c7/c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729.gif",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c7/c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729.gif",
+      "bytes": 25772337,
+      "sha256": "c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729",
+      "contentType": "image/gif",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "references": [
+        {
+          "page": "项目详情/其他效果.html",
+          "language": "zh-CN",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c7/c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729.gif"
+        },
+        {
+          "page": "项目详情/其他效果_en.html",
+          "language": "en",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c7/c771d5ca37454a5d6f594c9a544fd377696c67ae41f22fe06bcabc362af7a729.gif"
+        }
+      ]
+    },
+    {
+      "logicalId": "project/misc-effects/431ed8f5-9eee-4a23-adf5-f2a69d255862",
+      "assetId": "431ed8f5-9eee-4a23-adf5-f2a69d255862",
+      "projectId": "misc-effects",
+      "kind": "image",
+      "sourcePath": "indexeddb/misc-effects/431ed8f5-9eee-4a23-adf5-f2a69d255862",
+      "objectKey": "v1/sha256/c9/c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8.gif",
+      "packagePath": "aliyun-oss-optimized/v1/sha256/c9/c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8.gif",
+      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c9/c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8.gif",
+      "bytes": 34845402,
+      "sha256": "c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8",
+      "contentType": "image/gif",
+      "contentDisposition": null,
+      "cacheControl": "public, max-age=31536000, immutable",
+      "references": [
+        {
+          "page": "项目详情/其他效果.html",
+          "language": "zh-CN",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c9/c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8.gif"
+        },
+        {
+          "page": "项目详情/其他效果_en.html",
+          "language": "en",
+          "locations": [
+            "a[href]",
+            "img[src]"
+          ],
+          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/c9/c9432960982ca2bfbc01d7e4aaf2185a868c1d03aba9428e574685390a05f8e8.gif"
         }
       ]
     },
@@ -5382,41 +5907,6 @@
             "img[src]"
           ],
           "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/41/416edfc3dd73e57c4caa56add48a1d8a1a50a7decaa521fc4126c523ff2cae09.png"
-        }
-      ]
-    },
-    {
-      "logicalId": "project/misc-effects/3cfcb5ea-2cfc-4ab6-909c-23ec5bc9de81",
-      "assetId": "3cfcb5ea-2cfc-4ab6-909c-23ec5bc9de81",
-      "projectId": "misc-effects",
-      "kind": "image",
-      "sourcePath": "indexeddb/misc-effects/3cfcb5ea-2cfc-4ab6-909c-23ec5bc9de81",
-      "objectKey": "v1/sha256/b7/b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9.gif",
-      "packagePath": "aliyun-oss-optimized/v1/sha256/b7/b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9.gif",
-      "publicUrl": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/b7/b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9.gif",
-      "bytes": 4508634,
-      "sha256": "b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9",
-      "contentType": "image/gif",
-      "contentDisposition": null,
-      "cacheControl": "public, max-age=31536000, immutable",
-      "references": [
-        {
-          "page": "项目详情/其他效果.html",
-          "language": "zh-CN",
-          "locations": [
-            "a[href]",
-            "img[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/b7/b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9.gif"
-        },
-        {
-          "page": "项目详情/其他效果_en.html",
-          "language": "en",
-          "locations": [
-            "a[href]",
-            "img[src]"
-          ],
-          "url": "https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/b7/b7c46fc12cb8c1af38b78b95d950b9f177ff76379907823b316bb9cddd6449b9.gif"
         }
       ]
     },

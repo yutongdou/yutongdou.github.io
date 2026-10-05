@@ -37,12 +37,12 @@
       background-image:
         linear-gradient(
           to bottom,
-          rgba(255, 255, 255, 0.76) 0,
-          rgba(255, 255, 255, 0.84) 300px,
-          rgba(255, 255, 255, 0.97) 600px,
+          rgba(255, 255, 255, 0.808) 0,
+          rgba(255, 255, 255, 0.872) 300px,
+          rgba(255, 255, 255, 0.976) 600px,
           var(--white) 760px
         ),
-        url("https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/1c/1c62f622d65fc5d585787f8456d82b7d04c190d5347e680b7081ef87aad1d030.webp");
+        url("https://yutong-resume-media-hk.oss-cn-hongkong.aliyuncs.com/resume-assets/v1/sha256/5b/5bf9f0776a4e17574f2794fcf50b4d2e0fc4fd064ea8e35f80948defdd3951a6.webp");
       background-position: top center, top center;
       background-repeat: no-repeat, no-repeat;
       background-size: 100% 100%, max(1180px, 100vw) auto;
@@ -1274,24 +1274,6 @@
 
           
         <article class="project">
-            <span class="project-label">3ds Max / Blender / Maya</span>
-            <header class="project-header">
-              <div class="project-title-line">
-                <h3>DCC Toolkit</h3>
-                <span class="period">2022–2026</span>
-              </div>
-              <div class="project-actions">
-                <a class="project-link" href="项目详情/T1_3dsMax工具包_en.html" aria-label="View project details: DCC Toolkit" title="View project details"><span class="project-link-text">View more</span>
-                  <svg class="project-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg>
-                </a>
-              </div>
-            </header>
-            <ul class="bullets">
-              <li><span class="editable-list-content">Led requirements gathering, solution design, and implementation for a suite of DCC tools, eliminating art-production bottlenecks and improving workflow efficiency and reliability. Support 100+ artists throughout&nbsp; 5 projects</span></li>
-              <li><span class="editable-list-content">Including the correctness and standardization checks of the model, automatic correction and batch export of the model, vertex AO baking and editing tools, LOD preview tools, LOD bone rearrangement/alignment tools, automatic LOD and skin transfer tools, hairstyle adaptation tools, multi-model seam elimination tools, human model tool suite (automatic wrap, oral matching, eye matching, hair matching, head-body connection, etc.), animation split collapse, FBX/Prefab one-click to Blender, texture merging and splitting tools, etc.</span></li>
-              
-            </ul>
-          </article><article class="project"><span class="project-label">ComfyUI / Figma / Blender</span><header class="project-header"><div class="project-title-line"><h3>AI-Assisted Art Production Workflow Research</h3><span class="period">2024–2026</span></div><div class="project-actions"><a class="project-link" href="项目详情/AI工作流研究_en.html" title="View project details" aria-label="View project details: AI-Assisted Art Production Workflow Research"><span class="project-link-text">View more</span><svg class="project-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg></a></div></header><ul class="bullets custom-project-bullets"><li><span class="editable-list-content">Explored practical applications of AI across art design, modeling, iteration, evaluation, and content integration, including concept art, UX design, character and environment modeling, retopology, mesh optimization, rigging, animation, key visuals, and video production using web services, APIs, and DCC plugins.</span></li><li><span class="editable-list-content">Built an efficient workflow and developed DCC tools to rapidly convert AI-generated assets into compliant, production-ready content. This included a suite of Maya character modeling tools for mouth, eye, and hair fitting, head-to-body matching, retopology, and related tasks.</span></li></ul></article><article class="project">
             <span class="project-label">Unity URP / Unreal Forward</span>
             <header class="project-header">
               <div class="project-title-line">
@@ -1309,7 +1291,42 @@
               
               
               
-            <li><span class="editable-list-content"><b>Frame Prediction&nbsp;</b>—— Implemented frame prediction for Unity URP and Unreal's Forward Renderer, integrated the solution into Age of Empires Mobile and LetsGo, and resolved rendering-pipeline, compatibility, and edge-case issues without requiring changes to existing art-asset specifications.</span></li><li><span class="editable-list-content"><b>GPU Grasssea&nbsp;</b>—— Designed a mobile-friendly GPU grass system in URP supporting grass clusters, wind fields, view-dependent adaptation, terrain adaptation, and multiple visual styles.</span></li><li><span class="editable-list-content"><b>Stylized terrain&nbsp;</b>—— Built a stylized terrain demo via SD and Unity terrain system with substantial elevation variation, provided the related production approach and tools, and continued resolving blending issues between rocks and terrain.</span></li><li><span class="editable-list-content"><b>Volumetric rendering&nbsp;</b>—— Designed an artist-friendly mobile volumetric-rendering solution using limited step counts, scaled render resolution, simplified calculations, and work distributed across frames; delivered editors for volumetric lighting, clouds, fog, and mist.</span></li><li><span class="editable-list-content"><b>Character&nbsp;</b>— Built a complete UE5 pipeline from the ground up for complex character hair and cloth in an R&amp;D project, covering Groom/Hair Cards, wind simulation, dynamic bones, braid rig generation, cape animation, and cloth simulation. Established a workflow for integrating custom meshes and skeletons into the MetaHuman framework, and developed DCC tools to resolve misalignment, vertex explosions, and deformation issues caused by varying skeleton structures and topology.</span></li><li><span class="editable-list-content"><b>Character </b>— Developed foundational character materials for outfits, skin, hair, eyes, stockings, and other assets.</span></li></ul>
+            <li><span class="editable-list-content"><b>Frame Prediction&nbsp;</b>—— Implemented frame prediction systems for Unity URP and Unreal Forward Renderer, shipped in production titles; resolved pipeline compatibility and edge-case issues without modifying art asset specifications. The battery consumption has been reduced to approximately 60% of its original level on average in low-end devices.</span></li><li><span class="editable-list-content"><b>GPU Grasssea&nbsp;</b>—— Designed a mobile-friendly GPU grass system in URP supporting grass clusters, wind fields, view-dependent adaptation, terrain adaptation, and multiple visual styles.</span></li><li><span class="editable-list-content"><b>Stylized terrain&nbsp;</b>—— Built a stylized terrain demo via SD and Unity terrain system with substantial elevation variation, provided the related production approach and tools, and continued resolving blending issues between rocks and terrain.</span></li><li><span class="editable-list-content"><b>Volumetric rendering&nbsp;</b>—— Designed an artist-friendly mobile volumetric-rendering solution using limited step counts, scaled render resolution, simplified calculations, and work distributed across frames; delivered editors for volumetric lighting, clouds, fog, and mist. The power consumption of full-screen volumetric rendering is only 2 to 3 times that of bloom.</span></li><li><span class="editable-list-content"><b>Character&nbsp;</b>— Fully responsible for the character's physical systems in a R&amp;D project, including hair and cloth simulation, as well as integration of cloth systems, dynamic skeletons, and animation systems. E stablished a workflow to integrate any custom mesh and skeleton into the MetaHuman framework, and developed DCC tools to address alignment errors, vertex explosions, and deformation issues caused by differences in skeletal structure and topology.</span></li><li><span class="editable-list-content"><b>Character </b>— Developed foundational character materials for outfits, skin, hair, eyes, stockings, and other assets.Develop and maintain lookdev scenes</span></li></ul>
+          </article><article class="project">
+            <span class="project-label">Rendering Effects / vfx</span>
+            <header class="project-header">
+              <div class="project-title-line">
+                <h3>Rendering Effects</h3>
+                <span class="period">Ongoing</span>
+              </div>
+              <div class="project-actions">
+                <a class="project-link" href="项目详情/其他效果_en.html" aria-label="View project details: Rendering Effects" title="View project details"><span class="project-link-text">View more</span>
+                  <svg class="project-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg>
+                </a>
+              </div>
+            </header>
+            <ul class="bullets">
+              <li><span class="editable-list-content">A collection of smaller but representative cross-project requests spanning rendering, materials, VFX, and editor tooling.</span></li>
+              
+            </ul>
+          </article><article class="project">
+            <span class="project-label">3ds Max / Blender / Maya</span>
+            <header class="project-header">
+              <div class="project-title-line">
+                <h3>DCC Toolkit</h3>
+                <span class="period">2022–2026</span>
+              </div>
+              <div class="project-actions">
+                <a class="project-link" href="项目详情/T1_3dsMax工具包_en.html" aria-label="View project details: DCC Toolkit" title="View project details"><span class="project-link-text">View more</span>
+                  <svg class="project-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg>
+                </a>
+              </div>
+            </header>
+            <ul class="bullets">
+              <li><span class="editable-list-content">Led the requirements gathering, solution design, and implementation of a DCC toolset, eliminating bottlenecks in art asset production and improving workflow efficiency and reliability. Support 100+ artists throughout&nbsp; 5 projects</span></li>
+              <li><span class="editable-list-content">Including standardization checks, automatic model correction and batch export, vertex AO baking and editing tools, LOD preview tools, LOD bone reordering and alignment tools, automatic LOD and skin transfer tools, hairstyle adaptation tools, multi-model seam removal tools, human model toolkits (automatic wrapping, oral matching, eyeball matching, hair matching, head-body connection, etc.), animation separation and collapsing, one-click import of FBX/Prefabs into Blender, texture merging and splitting tools, etc.</span></li>
+              
+            </ul>
           </article><article class="project">
             <span class="project-label">Standards / Reverse Engineering / Optimization</span>
             <header class="project-header">
@@ -1324,28 +1341,11 @@
               </div>
             </header>
             <ul class="bullets">
-              <li><span class="editable-list-content">Based on gameplay needs, asset reusability, and package-splitting strategies, defined performance budgets and naming/path conventions for models, textures, VFX, LODs, skeletons, and animation across AOE, AOE2, and multiple R&amp;D projects. Integrated these rules into validation, analytics, and asset-governance workflows, and enabled low-cost adoption through legacy-asset fixes and development-stage compatibility solutions, supporting reuse and continuous iteration across projects.</span></li>
+              <li><span class="editable-list-content">Based on gameplay logic, resource universality, and packaging/splitting strategies, performance budgets and naming/path conventions were defined for models, textures, visual effects, LODs, skeletons, and animations across five projects. These rules were integrated into validation, analysis, and resource management workflows, enabling low-cost migration through fixing legacy assets and implementing compatibility solutions during development, thus supporting cross-project resource reuse and continuous iteration.</span></li>
               
-              <li><span class="editable-list-content">Reverse-engineered comparable products, documented technical reproduction, rendering analysis, and performance analysis, and built related scripts and tools.</span></li>
-            <li><span class="editable-list-content">Built monitoring tools for shader variants, package size, level frame rates, and asset complexity; authored a shader development white paper and training articles and shared the practices internally.</span></li></ul>
-          </article><article class="project">
-            <span class="project-label">Others</span>
-            <header class="project-header">
-              <div class="project-title-line">
-                <h3>Other Effects</h3>
-                <span class="period">Ongoing</span>
-              </div>
-              <div class="project-actions">
-                <a class="project-link" href="项目详情/其他效果_en.html" aria-label="View project details: Other Effects" title="View project details"><span class="project-link-text">View more</span>
-                  <svg class="project-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg>
-                </a>
-              </div>
-            </header>
-            <ul class="bullets">
-              <li><span class="editable-list-content">A collection of smaller but representative cross-project requests spanning rendering, materials, VFX, and editor tooling.</span></li>
-              
-            </ul>
-          </article></div>
+              <li><span class="editable-list-content">Play a key role in establishing conventions and standards. Reverse-engineered comparable products, built monitoring tools for shader variants, package size, level frame rates, and asset complexity;</span></li>
+            <li><span class="editable-list-content">Authored internal shader development white paper and 10+ training articles; conducted 10+ technical sharing sessions for 30+ attendees across teams. Mentored 2 junior artists/TA on tool usage, shader development, and performance optimization.</span></li></ul>
+          </article><article class="project"><span class="project-label">ComfyUI / Figma / Blender</span><header class="project-header"><div class="project-title-line"><h3>AI-Assisted Art Production Workflow Research</h3><span class="period">2024–2026</span></div><div class="project-actions"><a class="project-link" href="项目详情/AI工作流研究_en.html" title="View project details" aria-label="View project details: AI-Assisted Art Production Workflow Research"><span class="project-link-text">View more</span><svg class="project-link-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14"></path><path d="m13 6 6 6-6 6"></path></svg></a></div></header><ul class="bullets custom-project-bullets"><li><span class="editable-list-content">Explored practical applications of AI across art design, modeling, iteration, evaluation, and content integration, including concept art, UX and layout design, character and environment modeling, retopology, mesh optimization, rigging, animation, vfx textures, and video production, help artists convert AI-generated assets into compliant, production-ready content.&nbsp;</span></li><li><span class="editable-list-content">Developed and built multiple AI agent services based on ComfyUI, custom LoRA models, LLM APIs, and DCC plugins, with the UX workflow being a representative example, producing over 2,000 high-quality assets, 20% have already been put into use. The labor cost for assets has decreased from an average of 30 person-days to 3 person-days, resulting in a 1,000% increase in efficiency.</span></li></ul></article></div>
       </section>
 
       <section id="other" class="section">
